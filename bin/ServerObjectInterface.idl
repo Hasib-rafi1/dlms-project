@@ -1,0 +1,15 @@
+module ServerObjectInterfaceApp
+{
+  interface ServerObjectInterface
+  	{
+	    string addItem(in string managerId,in string itemID,in string itemName,in long  quantity);
+		string listItemAvailability(in string managerID);
+		string removeItem(in string managerID,in string itemID,in long  quantity);
+		boolean borrowItem(in string userID,in string itemID,in long  numberOfDay);
+		string findItem(in string userID,in string itemName);
+		boolean returnItem(in string userID,in string itemID);
+		boolean waitInQueue(in string userID,in string itemID);
+		boolean exchangeItem(in string userID,in string newItemID,in string oldItemID);
+	    oneway void shutdown();
+    };
+};
