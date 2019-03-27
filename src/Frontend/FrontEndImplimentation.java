@@ -183,8 +183,12 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 			while (true) {
 				DatagramPacket request = new DatagramPacket(buffer, buffer.length);
 				aSocket.receive(request);
-				System.out.println(request.getData().toString());
-				message.add(request.getData().toString());
+				String sentence = new String( request.getData(), 0,
+						request.getLength() );
+				System.out.println(sentence);
+				String[] parts = sentence.split(";");
+				System.out.println(parts[0]);
+				message.add(parts[0]);
 			}
 		} catch (SocketException e) {
 			System.out.println("Socket: " + e.getMessage());

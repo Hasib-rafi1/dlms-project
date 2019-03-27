@@ -22,6 +22,7 @@ public class Sequencer {
 				sentence = sentence+sequencerId;
 				System.out.println(sentence);
 				sendMessage(sentence);
+				sequencerId++;
 			}
 
 		} catch (SocketException e) {
@@ -38,10 +39,10 @@ public class Sequencer {
 		DatagramSocket aSocket = null;
 		try {
 			aSocket = new DatagramSocket();
-			byte[] m = message.getBytes();
+			byte[] messages = message.getBytes();
 			InetAddress aHost = InetAddress.getByName("230.1.1.10");
 
-			DatagramPacket request = new DatagramPacket(m, m.length, aHost, 1412);
+			DatagramPacket request = new DatagramPacket(messages, messages.length, aHost, 1412);
 			aSocket.send(request);
 		} catch (IOException e) {
 			e.printStackTrace();
