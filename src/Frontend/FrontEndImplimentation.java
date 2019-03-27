@@ -10,7 +10,6 @@ import java.util.ArrayList;
 
 import org.omg.CORBA.ORB;
 
-import ReplicaManagerOne.ImplementRemoteInterface.ConcordiaClass;
 import ServerObjectInterfaceApp.ServerObjectInterfacePOA;
 
 public class FrontEndImplimentation extends ServerObjectInterfacePOA{
@@ -23,11 +22,6 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 		ArrayList<String> message = new ArrayList();
 		sendMessage("addItem", managerId, itemName, itemID, null ,quantity);
 		
-		Runnable task = () -> {
-			receive(message);
-		};
-		Thread thread = new Thread(task);
-		thread.start();
 //		while(true) {
 //			if(message.size()==3) {
 //				break;
@@ -39,11 +33,7 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 	public String removeItem(String managerID, String itemID, int quantity){
 		ArrayList<String> message = new ArrayList();
 		sendMessage("removeItem", managerID, null, itemID, null ,quantity);
-		Runnable task = () -> {
-			receive(message);
-		};
-		Thread thread = new Thread(task);
-		thread.start();
+		
 //		while(true) {
 //			if(message.size()==3) {
 //				break;
@@ -55,11 +45,7 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 	public String listItemAvailability(String managerID) {
 		ArrayList<String> message = new ArrayList();
 		sendMessage("listItemAvailability", managerID, null, null, null ,0);
-		Runnable task = () -> {
-			receive(message);
-		};
-		Thread thread = new Thread(task);
-		thread.start();
+		
 //		while(true) {
 //			if(message.size()==3) {
 //				break;
@@ -71,11 +57,7 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 	public boolean borrowItem(String userID,String itemID,int numberOfDay) {
 		ArrayList<String> message = new ArrayList();
 		sendMessage("borrowItem", userID, null, itemID, null ,numberOfDay);
-		Runnable task = () -> {
-			receive(message);
-		};
-		Thread thread = new Thread(task);
-		thread.start();
+		
 //		while(true) {
 //			if(message.size()==3) {
 //				break;
@@ -87,11 +69,7 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 	public String findItem(String userID, String itemName) {
 		ArrayList<String> message = new ArrayList();
 		sendMessage("findItem", userID, itemName, null, null ,0);
-		Runnable task = () -> {
-			receive(message);
-		};
-		Thread thread = new Thread(task);
-		thread.start();
+		
 //		while(true) {
 //			if(message.size()==3) {
 //				break;
@@ -103,11 +81,7 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 	public boolean returnItem(String userID, String itemID) {
 		ArrayList<String> message = new ArrayList();
 		sendMessage("returnItem", userID, null, itemID, null ,0);
-		Runnable task = () -> {
-			receive(message);
-		};
-		Thread thread = new Thread(task);
-		thread.start();
+		
 //		while(true) {
 //			if(message.size()==3) {
 //				break;
@@ -118,11 +92,7 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 	public boolean waitInQueue(String userID,String itemID) {
 		ArrayList<String> message = new ArrayList();
 		sendMessage("waitInQueue", userID, null, itemID, null ,0);
-		Runnable task = () -> {
-			receive(message);
-		};
-		Thread thread = new Thread(task);
-		thread.start();
+		
 //		while(true) {
 //			if(message.size()==3) {
 //				break;
@@ -134,11 +104,7 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 	public boolean exchangeItem(String userID,String newItemID,String oldItemID){
 		ArrayList<String> message = new ArrayList();
 		sendMessage("exchangeItem", userID, null, oldItemID, newItemID ,0);
-		Runnable task = () -> {
-			receive(message);
-		};
-		Thread thread = new Thread(task);
-		thread.start();
+		
 //		while(true) {
 //			if(message.size()==3) {
 //				break;
@@ -147,7 +113,7 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 		return true;
 	}
 
-	private void sendMessage(String function,String userID,String itemName, String itemId, String newItem, int number) {
+	public void sendMessage(String function,String userID,String itemName, String itemId, String newItem, int number) {
 		DatagramSocket aSocket = null;
 		String dataFromClient = function+";"+userID+";"+itemName+";"+itemId+";"+newItem+";"+number+";";
 		try {
@@ -169,7 +135,7 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 	}
 	
 
-	private static void receive(ArrayList<String> message) {
+	public static void receive() {
 		MulticastSocket aSocket = null;
 		try {
 

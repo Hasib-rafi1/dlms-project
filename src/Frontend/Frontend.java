@@ -39,7 +39,12 @@ public class Frontend {
 			ncRef.rebind(path, href);
 
 			System.out.println("frontend Server ready and waiting ...");
-
+			
+			Runnable task = () -> {
+				obj.receive();
+			};
+			Thread thread = new Thread(task);
+			thread.start();
 			// wait for invocations from clients
 			for (;;) {
 				orb.run();
