@@ -101,3 +101,7 @@ Action: return an Item: MCG1010 | Resonse: true
 Action: find an Item: DISTRIBUTED SYSTEM | Resonse: CON1010=Item{itemName='Distributed System', itemQty='10'}
 Action: find an Item: DISTRIBUTED SYSTEM | Resonse: MCG1010=Item{itemName='Distributed System', itemQty='20'}
 Action: find an Item: DISTRIBUTED SYSTEM | Resonse: MON1010=Item{itemName='Distributed System', itemQty='20'}
+Action: Borrowed an Item: CON1234 | Resonse: true
+Action: find an Item: A | Resonse: CON1234=Item{itemName='A', itemQty='0'}
+Action: Replaced CON1234 withCON1010 | Resonse: true
+Action: return an Item: CON1010 | Resonse: true

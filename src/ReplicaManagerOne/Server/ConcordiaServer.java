@@ -126,7 +126,6 @@ public class ConcordiaServer {
 
 				String sentence = new String( request.getData(), 0,
 						request.getLength() );
-				System.out.println(sentence);
 				String[] parts = sentence.split(";");
 				//				String function = parts[0]; 
 				//				String userID = parts[1]; 
@@ -156,18 +155,21 @@ public class ConcordiaServer {
 	public static void findNextMessage() {
 		Iterator<Message> itr = pq.iterator(); 
 		while (itr.hasNext()) {
-			if(itr.next().getsequenceId()==nextSequence) {
-				String message = itr.next().getMessage();
+			Message request = itr.next();
+			if(request.getsequenceId()==nextSequence) {
+				nextSequence = pq.poll().getsequenceId()+1;
+				String message = request.getMessage();
 				String[] parts = message.split(";");
 				String function = parts[0]; 
 				String userID = parts[1]; 
 				String itemName = parts[2]; 
 				String itemId = parts[3]; 
 				String newItemId = parts[4];
-				int number = Integer.parseInt(parts[6]);
+				int number = Integer.parseInt(parts[5]);
+				System.out.println(message);
 				String sendingResult ="";
 				if(function.equals("addItem")) {
-					sendingResult = concordiaObjecct.addItem(userID, itemName, itemId,number);
+					sendingResult = concordiaObjecct.addItem(userID,itemId, itemName,number);
 					sendingResult= sendingResult+";";
 				}else if(function.equals("removeItem")) {
 					String result = concordiaObjecct.removeItem(userID, itemId,number);
@@ -200,7 +202,7 @@ public class ConcordiaServer {
 				}
 				
 				sendMessageBackToFrontend(sendingResult);
-				nextSequence = pq.poll().getsequenceId()+1;
+				
 			}
 		} 			 
 	}
@@ -212,8 +214,9 @@ public class ConcordiaServer {
 			byte[] m = message.getBytes();
 			InetAddress aHost = InetAddress.getByName("230.1.1.5");
 
-			DatagramPacket request = new DatagramPacket(m, m.length, aHost, 1334);
+			DatagramPacket request = new DatagramPacket(m, m.length, aHost, 1413);
 			aSocket.send(request);
+			aSocket.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

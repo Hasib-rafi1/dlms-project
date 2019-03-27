@@ -173,7 +173,7 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 		MulticastSocket aSocket = null;
 		try {
 
-			aSocket = new MulticastSocket(1334);
+			aSocket = new MulticastSocket(1413);
 
 			aSocket.joinGroup(InetAddress.getByName("230.1.1.5"));
 
@@ -186,10 +186,11 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 				String sentence = new String( request.getData(), 0,
 						request.getLength() );
 				System.out.println(sentence);
-				String[] parts = sentence.split(";");
-				System.out.println(parts[0]);
-				message.add(parts[0]);
+				DatagramPacket reply = new DatagramPacket(request.getData(), request.getLength(), request.getAddress(),
+						request.getPort());
+				aSocket.send(reply);
 			}
+
 		} catch (SocketException e) {
 			System.out.println("Socket: " + e.getMessage());
 		} catch (IOException e) {

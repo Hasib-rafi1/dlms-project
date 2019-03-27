@@ -93,11 +93,16 @@ public class ConcordiaClass{
 		String managerPrefix = managerID.substring(0, Math.min(managerID.length(), 3)).toLowerCase();
 
 		String userType = managerID.substring(3, Math.min(managerID.length(), 4));
-
+		System.out.println(managerID);
+		System.out.println(itemID);
+		System.out.println(quantity);
 		if(itemPrefix.equals(managerPrefix) && (userType.equals("M") || userType.equals("m"))){
+			System.out.println(1);
 			if(itemsMaps.containsKey(itemID)) {
+				System.out.println(2);
 				int itemLeft = itemsMaps.get(itemID).getitemQty() - quantity;
 				if(itemLeft>=0) {
+					System.out.println(3);
 					itemsMaps.get(itemID).setitemQty(itemLeft);
 					String action = "REMOVE ITEM "+ itemID;
 					try {
@@ -111,6 +116,7 @@ public class ConcordiaClass{
 					return "Book removed successful";
 				}
 				else{
+					System.out.println(4);
 					//itemsMaps.remove(itemID);
 					String action = "REMOVE ITEM "+ itemID;
 					try {
@@ -126,6 +132,7 @@ public class ConcordiaClass{
 
 			}
 		}
+		System.out.println(10);
 		String action = "REMOVE ITEM "+ itemID;
 		try {
 			logCreate(managerID, action, "ITEM CAN'T BE REMOVED: false");
