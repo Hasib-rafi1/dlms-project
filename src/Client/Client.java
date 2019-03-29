@@ -40,6 +40,10 @@ public class Client {
 			System.out.println("Wrong ID");
 			startSystem(ncRef);
 		}
+		if(!username.substring(3,4).equals("U") && !username.substring(3,4).equals("M")){
+			System.out.println("Invalid ID");
+			startSystem(ncRef);
+		}
 		String accessParameter = username.substring(3, Math.min(username.length(), 4));
 		System.out.println("You are loging as " + accessParameter);
 		if(accessParameter.equals("U") || accessParameter.equals("u") ) {
