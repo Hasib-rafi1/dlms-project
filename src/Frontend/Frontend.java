@@ -17,6 +17,12 @@ public class Frontend {
 	public static void main(String args[])
 	{
 		try {
+			FrontEndImplimentation obj = new FrontEndImplimentation();
+			Runnable task = () -> {
+				obj.receive();
+			};
+			Thread thread = new Thread(task);
+			thread.start();
 			// create and initialize the ORB //// get reference to rootpoa &amp; activate
 			// the POAManager
 			ORB orb = ORB.init(args, null);
@@ -25,7 +31,6 @@ public class Frontend {
 			rootpoa.the_POAManager().activate();
 
 			// create servant and register it with the ORB
-			FrontEndImplimentation obj = new FrontEndImplimentation();
 			obj.setORB(orb);
 
 			// get object reference from the servant
@@ -40,11 +45,6 @@ public class Frontend {
 
 			System.out.println("frontend Server ready and waiting ...");
 			
-			Runnable task = () -> {
-				obj.receive();
-			};
-			Thread thread = new Thread(task);
-			thread.start();
 			// wait for invocations from clients
 			for (;;) {
 				orb.run();
