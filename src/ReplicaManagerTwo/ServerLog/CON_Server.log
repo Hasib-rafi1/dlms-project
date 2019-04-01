@@ -25,3 +25,15 @@
 2019-03-31 22:47:25Books added Successfully
 2019-03-31 22:48:04 User [CONU1010] borrow item [CON9876] success.
 2019-03-31 22:48:20 Server borrow item [MCG1010] for user [CONU1010] from server [MCG] success
+2019-04-01 00:16:10 Server for CON started
+2019-04-01 00:16:20 Manager [CONM1111] list all of item success. All Items: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}}
+2019-04-01 00:16:48 Manager [CONM1111] list all of item success. All Items: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}}
+2019-04-01 00:23:47 Server for CON started
+2019-04-01 00:24:30 User [CONU1111] found all item named [DISTRIBUTED SYSTEM] success . Items:   
+2019-04-01 00:33:00 Server for CON started
+2019-04-01 00:33:43 User [CONU1111] found all item named [DISTRIBUTED SYSTEM] success . Items: CON1010=Item{itemName='Distributed System', itemQty='10'} MCG1010=Item{itemName='Distributed System', itemQty='20'} No items are available
+2019-04-01 02:44:55 Server for CON started
+2019-04-01 02:46:21 Manager [CONM1111] list all of item success. All Items: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}}
+2019-04-01 02:50:33 Server for CON started
+2019-04-01 02:53:09 Manager [CONM1111] list all of item success. All Items: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}}
+2019-04-01 02:53:43 User [CONU1234] found all item named [DISTRIBUTED SYSTEM] success . Items: Concordia CON1010=Item{itemName='Distributed System', itemQty='10'}  Montreal MON1010=Item{itemName='Distributed System', itemQty='20'} McGill MCG1010=Item{itemName='Distributed System', itemQty='20'}

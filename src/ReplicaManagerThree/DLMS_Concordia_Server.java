@@ -16,6 +16,7 @@ public class DLMS_Concordia_Server
 	public static PriorityQueue<Message> pq = new PriorityQueue<Message>(20, new MessageComparator()); 
 	public static DLMS_Concordia_Implementation concordiaObjecct;
 	public static int nextSequence = 1;
+	public static int RMNo = 3;
 
 	public static void main(String args[]) throws ExportException
 	{
@@ -55,6 +56,7 @@ public class DLMS_Concordia_Server
 			System.err.println("ERROR: " + e);
 			e.printStackTrace(System.out);
 		}
+		sendMessageBackToFrontend("Listen from RM3 Concordia");
 		
 	}
 
@@ -176,37 +178,29 @@ public class DLMS_Concordia_Server
 				String sendingResult ="";
 				if(function.equals("addItem")) {
 					sendingResult = concordiaObjecct.addItem(userID,itemId, itemName,number);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("removeItem")) {
 					String result = concordiaObjecct.removeItem(userID, itemId,number);
 					sendingResult = result;
-					sendingResult= sendingResult+";";
 				}else if(function.equals("listItemAvailability")) {
 					String result = concordiaObjecct.listItemAvailability(userID);
 					sendingResult = result;
-					sendingResult= sendingResult+";";
 				}else if(function.equals("borrowItem")) {
 					boolean result = concordiaObjecct.borrowItem(userID, itemId,number);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("findItem")) {
-					sendingResult = concordiaObjecct.findItem(userID,itemName);
-					
-					sendingResult= sendingResult+";";
+					sendingResult = concordiaObjecct.findItem(userID,itemName);					
 				}else if(function.equals("returnItem")) {
 					boolean result = concordiaObjecct.returnItem(userID,itemId);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("waitInQueue")) {
 					boolean result = concordiaObjecct.waitInQueue(userID,itemId);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("exchangeItem")) {
 					boolean result = concordiaObjecct.exchangeItem(userID,newItemId,itemId);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}
-				
+
+				sendingResult= sendingResult+"|"+RMNo+"|"+message+"|";
 				sendMessageBackToFrontend(sendingResult);
 				
 			}

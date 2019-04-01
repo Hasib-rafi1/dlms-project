@@ -11,6 +11,7 @@ import java.util.logging.Logger;
 
 
 
+
 public class DLMS_Concordia_Implementation
 {
 
@@ -390,8 +391,8 @@ public class DLMS_Concordia_Implementation
 			DatagramPacket MonReceivePacket = new DatagramPacket(receiveData, receiveData.length);
 			ConcordiaSocket.receive(MonReceivePacket);
 			mon_message = new String(MonReceivePacket.getData());
-
-			message = con_message+mcg_message+mon_message;
+			
+			message = "Concordia "+con_message+" Montreal "+mon_message+" McGill "+mcg_message;
 			ConcordiaSocket.close();
 		}
 		catch (Exception e)
@@ -420,16 +421,18 @@ public class DLMS_Concordia_Implementation
 
 	public String findBook(String userid,String bookname)
 	{
-		String message = ":Not available.:"+0+":";
-		for(Map.Entry<String, Books> entry: bookmapping.entrySet())
-		{
-			if(entry.getValue().getItemName().equals(bookname))
-			{
-				System.out.println("The Book "+bookname +" is available. Book ID: "+entry.getValue().getItemID()+" Quantity Available: "+entry.getValue().getQuantity());
-				message = ":"+entry.getValue().getItemID()+":"+entry.getValue().getQuantity()+":";
+		String result = "No items are available";
+	
+			for (Map.Entry<String, Books> entry : bookmapping.entrySet()) {
+				System.out.println(bookname);
+				String name = entry.getValue().getItemName();
+				if(name.equalsIgnoreCase(bookname)) {
+					result = entry.toString();
+
+				}
+
 			}
-		}
-		return message;
+		return result;
 	}
 
 	public boolean waitInQueue(String bookID, String userID )

@@ -19,6 +19,7 @@ public class ConcordiaServer {
 	public static PriorityQueue<Message> pq = new PriorityQueue<Message>(20, new MessageComparator()); 
 	public static ConcordiaClass concordiaObjecct;
 	public static int nextSequence = 1;
+	public static int RMNo = 1;
 	public static void main(String args[]) throws Exception
 	{
 
@@ -37,7 +38,8 @@ public class ConcordiaServer {
 		};
 		Thread thread2 = new Thread(task2);
 		thread2.start();
-
+		
+		sendMessageBackToFrontend("Listen from RM1 Concordia");
 		System.out.println("ConcordiaServer Exiting ...");
 
 	}
@@ -170,37 +172,29 @@ public class ConcordiaServer {
 				String sendingResult ="";
 				if(function.equals("addItem")) {
 					sendingResult = concordiaObjecct.addItem(userID,itemId, itemName,number);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("removeItem")) {
 					String result = concordiaObjecct.removeItem(userID, itemId,number);
 					sendingResult = result;
-					sendingResult= sendingResult+";";
 				}else if(function.equals("listItemAvailability")) {
 					String result = concordiaObjecct.listItemAvailability(userID);
 					sendingResult = result;
-					sendingResult= sendingResult+";";
 				}else if(function.equals("borrowItem")) {
 					boolean result = concordiaObjecct.borrowItem(userID, itemId,number);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("findItem")) {
 					sendingResult = concordiaObjecct.findItem(userID,itemName);
-					
-					sendingResult= sendingResult+";";
 				}else if(function.equals("returnItem")) {
 					boolean result = concordiaObjecct.returnItem(userID,itemId);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("waitInQueue")) {
 					boolean result = concordiaObjecct.waitInQueue(userID,itemId);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("exchangeItem")) {
 					boolean result = concordiaObjecct.exchangeItem(userID,newItemId,itemId);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}
-				
+
+				sendingResult= sendingResult+"|"+RMNo+"|"+message+"|";
 				sendMessageBackToFrontend(sendingResult);
 				
 			}
@@ -208,7 +202,7 @@ public class ConcordiaServer {
 	}
 	
 	public static void sendMessageBackToFrontend(String message) {
-		System.out.println(message);
+		
 		DatagramSocket aSocket = null;
 		try {
 			aSocket = new DatagramSocket();

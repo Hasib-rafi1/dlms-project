@@ -37,10 +37,11 @@ public class Books
 		this.quantity = quantity;
 	}
 	
-	public String toString()
-	{
-		return "Item{"+
-				        "itemName='"+ itemName + '\'' + ",itemQty='" + quantity + '\''+
-				        '}';
-	}
+	  @Override
+	    public String toString() {
+	        return "Item{" +
+	                "itemName='" + itemName + '\'' +
+	                ", itemQty='" + quantity + '\'' +
+	                '}';
+	    }
 }

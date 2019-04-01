@@ -18,7 +18,7 @@ public class McgillServer {
 	public static PriorityQueue<Message> pq = new PriorityQueue<Message>(20, new MessageComparator()); 
 	public static McgillClass mcgObjecct;
 	public static int nextSequence = 1;
-	
+	public static int RMNo = 1;
 	public static void main(String args[])
 	{
 		try {
@@ -45,7 +45,7 @@ public class McgillServer {
 			System.err.println("ERROR: " + e);
 			e.printStackTrace(System.out);
 		}
-
+		sendMessageBackToFrontend("Listen from RM1 McgillClass");
 		System.out.println("MC Gill Server Exiting ...");
 
 	}
@@ -176,36 +176,28 @@ public class McgillServer {
 				String sendingResult ="";
 				if(function.equals("addItem")) {
 					sendingResult = mcgObjecct.addItem(userID,itemId, itemName,number);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("removeItem")) {
 					String result = mcgObjecct.removeItem(userID, itemId,number);
 					sendingResult = result;
-					sendingResult= sendingResult+";";
 				}else if(function.equals("listItemAvailability")) {
 					String result = mcgObjecct.listItemAvailability(userID);
 					sendingResult = result;
-					sendingResult= sendingResult+";";
 				}else if(function.equals("borrowItem")) {
 					boolean result = mcgObjecct.borrowItem(userID, itemId,number);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("findItem")) {
 					sendingResult = mcgObjecct.findItem(userID,itemName);
-					
-					sendingResult= sendingResult+";";
 				}else if(function.equals("returnItem")) {
 					boolean result = mcgObjecct.returnItem(userID,itemId);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("waitInQueue")) {
 					boolean result = mcgObjecct.waitInQueue(userID,itemId);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("exchangeItem")) {
 					boolean result = mcgObjecct.exchangeItem(userID,newItemId,itemId);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}
+				sendingResult= sendingResult+"|"+RMNo+"|"+message+"|";
 				
 				sendMessageBackToFrontend(sendingResult);
 				

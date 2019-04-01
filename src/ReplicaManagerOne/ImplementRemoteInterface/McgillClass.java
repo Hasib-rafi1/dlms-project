@@ -267,16 +267,16 @@ public class McgillClass{
 			if(libraryPrifix.equals("mcg")) {
 				String resultMon = sendMessage(montrealServerPort,"find", userID, itemName,  null,  0);
 				String resultCon = sendMessage(concordiaServerPort,"find", userID, itemName,  null,  0);
-				itemList = itemList+resultMon+resultCon;
+				itemList =  "Concordia "+resultCon+" Montreal "+resultMon+" McGill "+itemList;
 			}else if(libraryPrifix.equals("mon")) {
 				String resultMcgill = sendMessage(mcgillServerPort,"find", userID, itemName,  null,  0);
 				String resultCon = sendMessage(concordiaServerPort,"find", userID, itemName,  null,  0);
-				itemList = itemList+resultMcgill+resultCon;
+				itemList =  "Concordia "+resultCon+" Montreal "+itemList+" McGill "+resultMcgill;
 			}else if(libraryPrifix.equals("con")) {
 				String resultMcgill = sendMessage(mcgillServerPort,"find", userID, itemName,  null,  0);
 				String resultMon = sendMessage(montrealServerPort,"find", userID, itemName,  null,  0);
 
-				itemList = itemList+resultMon+resultMcgill;
+				itemList = "Concordia "+itemList+" Montreal "+resultMon+" McGill "+resultMcgill;
 			}
 		}
 

@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -24,7 +25,7 @@ public class ServerImp {
 
 	public static PriorityQueue<Message> pq = new PriorityQueue<Message>(20, new MessageComparator()); 
 	public static int nextSequence = 1;
-
+	public static int RMNo = 2;
 	private Lock lock = new ReentrantLock();
 
 	class Admin{
@@ -38,6 +39,14 @@ public class ServerImp {
 		String ID;
 		String name;
 		int num;
+		
+		 @Override
+		    public String toString() {
+		        return "Item{" +
+		                "itemName='" + name + '\'' +
+		                ", itemQty='" + num + '\'' +
+		                '}';
+		    }
 	}
 
 	private HashMap<String, Item> items = new HashMap<>();
@@ -87,7 +96,7 @@ public class ServerImp {
 			items.put(i1.ID,i1);
 			items.put(i2.ID,i2);
 			items.put(i3.ID,i3);
-		}else if(Campus.equals("CON")) {
+		}else if(Campus.equals("MON")) {
 			Item i1 = new Item();
 			i1.name = "Distributed System";
 			i1.num = 20;
@@ -121,6 +130,7 @@ public class ServerImp {
 		};
 		Thread thread2 = new Thread(task2);
 		thread2.start();
+		sendMessageBackToFrontend("Listen from RM1 Concordia");
 	}
 
 	private static void Log(String serverID,String Message) throws Exception{
@@ -325,10 +335,10 @@ public class ServerImp {
 	}
 
 	public String listItemAvailability (String managerID) {
-		String result = "";
-		for(HashMap.Entry<String, Item> entry : items.entrySet()){
-			result = result + entry.getKey() + " " + entry.getValue().name + " " + entry.getValue().num + " , ";
-		}
+		String result = items.toString();
+//		for(HashMap.Entry<String, Item> entry : items.entrySet()){
+//			result = result + entry.getKey() + " " + entry.getValue().name + " " + entry.getValue().num + " , ";
+//		}
 		if(result.isEmpty()){
 			String log = " Manager [" + managerID + "] list all of item failed";
 			System.out.println(log);
@@ -524,22 +534,22 @@ public class ServerImp {
 			case "CON": {
 				int serverport1 = 2235;
 				int serverport2 = 2236;
-				result = result + " " + UDPRequest.UDPfindItem(command, serverport1);
-				result = result + " " + UDPRequest.UDPfindItem(command, serverport2);
+				result = "Concordia "+result + "  Montreal " + UDPRequest.UDPfindItem(command, serverport2);
+				result = result + " McGill " + UDPRequest.UDPfindItem(command, serverport1);
 				break;
 			}
 			case "MCG": {
 				int serverport1 = 2234;
 				int serverport2 = 2236;
-				result = result + " " + UDPRequest.UDPfindItem(command, serverport1);
-				result = result + " " + UDPRequest.UDPfindItem(command, serverport2);
+				result = " Montreal " + UDPRequest.UDPfindItem(command, serverport2) + " McGill "+result;
+				result = "Concordia " + UDPRequest.UDPfindItem(command, serverport1)+result;
 				break;
 			}
 			default: {
 				int serverport1 = 2234;
 				int serverport2 = 2235;
-				result = result + " " + UDPRequest.UDPfindItem(command, serverport1);
-				result = result + " " + UDPRequest.UDPfindItem(command, serverport2);
+				result = " Montreal "+result + " McGill " + UDPRequest.UDPfindItem(command, serverport2);
+				result = "Concordia " + UDPRequest.UDPfindItem(command, serverport1)+result;
 				break;
 			}
 			}
@@ -566,16 +576,16 @@ public class ServerImp {
 		return result;
 	}
 	public String findItemLocal(String itemName){
-		String result = "";
-		int availableNum = 0;
-		String itemID = "";
+		String result = "No items are available";
 		synchronized(this) {
-			for(HashMap.Entry<String,Item> entry : items.entrySet()){
-				if(entry.getValue().name.equals(itemName)){
-					availableNum += entry.getValue().num;
-					itemID = entry.getKey();
-					result = itemID + " " + Integer.toString(availableNum);
+			for (Map.Entry<String, Item> entry : items.entrySet()) {
+				System.out.println(itemName);
+				String name = entry.getValue().name;
+				if(name.equalsIgnoreCase(itemName)) {
+					result = entry.toString();
+
 				}
+
 			}
 		}
 		return result;
@@ -896,37 +906,29 @@ public class ServerImp {
 				String sendingResult ="";
 				if(function.equals("addItem")) {
 					sendingResult = this.addItem(userID,itemId, itemName,number);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("removeItem")) {
 					String result = this.removeItem(userID, itemId,number);
 					sendingResult = result;
-					sendingResult= sendingResult+";";
 				}else if(function.equals("listItemAvailability")) {
 					String result = this.listItemAvailability(userID);
 					sendingResult = result;
-					sendingResult= sendingResult+";";
 				}else if(function.equals("borrowItem")) {
 					boolean result = this.borrowItem(userID, itemId,number);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("findItem")) {
 					sendingResult = this.findItem(userID,itemName);
-
-					sendingResult= sendingResult+";";
 				}else if(function.equals("returnItem")) {
 					boolean result = this.returnItem(userID,itemId);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("waitInQueue")) {
 					boolean result = this.waitInQueue(userID,itemId);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}else if(function.equals("exchangeItem")) {
 					boolean result = this.exchangeItem(userID,newItemId,itemId);
 					sendingResult = Boolean.toString(result);
-					sendingResult= sendingResult+";";
 				}
 
+				sendingResult= sendingResult+"|"+RMNo+"|"+message+"|";
 				sendMessageBackToFrontend(sendingResult);
 
 			}
