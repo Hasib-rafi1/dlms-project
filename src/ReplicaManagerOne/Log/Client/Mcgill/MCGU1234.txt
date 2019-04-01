@@ -9,3 +9,6 @@ Action: Borrowed an Item: MCG6231 | Resonse: false
 Action: Assked for waiting List: MCG6231 | Resonse: true
 Action: Borrowed an Item: MCG6231 | Resonse: true
 Action: Borrowed an Item: MCG6231 | Resonse: false
+Action: Borrowed an Item: CON9876 | Resonse: true
+Action: Borrowed an Item: MCG1010 | Resonse: true
+Action: Borrowed an Item: CON9876 | Resonse: true

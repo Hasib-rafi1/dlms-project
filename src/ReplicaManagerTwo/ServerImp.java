@@ -203,17 +203,17 @@ public class ServerImp {
 				if (items.containsKey(itemID)){
 					if(itemName.equals(items.get(itemID).name)) {
 						items.get(itemID).num += intQuantity;
-						result = "Manager ["+managerID+"] increase quantity of item [" + itemID + "] by [" + quantity + "] success";
+						result = "Books added Successfully";
 					}else{
-						error = "Manager ["+managerID+"] increase quantity of item [" + itemID + "] by [" + quantity + "] failed : " +
-								"Wrong ItemName";
+						result = "Books Can't be added";
+						error = "Books Can't be added";
 					}
 				}else {
 					int flag = 0;
 					for (HashMap.Entry<String, Item> entry : items.entrySet()) {
 						if (entry.getValue().name.equals(itemName)) {
-							error = "Manager ["+managerID+"] add [" + quantity + "] of item [" + itemID + "] failed : " +
-									"ItemName already exist";
+							error = "Books Can't be added";
+							result = "Books Can't be added";
 							flag = 1;
 						}
 					}
@@ -222,12 +222,13 @@ public class ServerImp {
 						newItem.name = itemName;
 						newItem.num = intQuantity;
 						items.put(itemID, newItem);
-						result = "Manager ["+managerID+"] add [" + quantity + "] of item [" + itemID + "] success";
+						result = "Books added Successfully";
 					}
 				}
 			}
 			else{
-				error = "Manager ["+managerID+"] add [" + quantity + "] of item [" + itemID + "] failed : Qauntity must more than 0";
+				error = "Books Can't be added";
+				result = "Books Can't be added";
 			}
 		}
 
@@ -281,26 +282,26 @@ public class ServerImp {
 					if(intQuantity < 0 ){
 						//remove all
 						items.remove(itemID);
-						result = " Manager [" + managerID + "] delete item [" + itemID + "] success. ";
+						result = "Book removed successful";
 						if(waitList.containsKey(itemID)){
 							waitList.remove(itemID);
-							result += "Delete this item from wait list. ";
 						}if(borrowedItems.containsKey(itemID)){
 							borrowedItems.remove(itemID);
-							result += "Delete this item from borrowed list ";
 						}
 					}else if(intQuantity <= items.get(itemID).num) {
 						items.get(itemID).num -= intQuantity;
-						result = " Manager [" + managerID + "] remove ["
-								+ quantity + "] of item [" + itemID + "] success.";
+						result = "Book removed successful";
 					}else{
-						error = "No Enough Item To Remove";
+						result = "Book can't be removed";
+						error = "Book can't be removed";
 					}
 				}else{
-					error = "No Item Available At This Moment";
+					result = "Book can't be removed";
+					error = "Book can't be removed";
 				}
 			}else{
-				error = "Item Not Found! ";
+				result = "Book can't be removed";
+				error = "Book can't be removed";
 			}
 		}
 		if(!result.isEmpty()) {

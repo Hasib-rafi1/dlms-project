@@ -26,3 +26,6 @@ DATE: 2019-02-20 01:44:31 PMAction: List of Items  | Parameters: USER ID: MCGM11
 DATE: 2019-02-20 01:52:56 PMAction: Borrowed an Item: MCG6231 | Parameters: USER ID: MCGU1234/ Item ID: MCG6231/ Number OF Day: 8 | Action Status: Failed | Resonse: false
 DATE: 2019-03-05 01:30:28 AMAction: List of Items  | Parameters: USER ID: MCGM1111 | Action Status: Success | Resonse: {MCG1011=Item{itemName='Absoulate Java', itemQty='22'}, MCG1012=Item{itemName='Data Structure', itemQty='10'}, MCG1010=Item{itemName='Distributed System', itemQty='19'}}
 DATE: 2019-03-05 01:31:34 AMAction: List of Items  | Parameters: USER ID: MCGM1111 | Action Status: Success | Resonse: {MCG1011=Item{itemName='Absoulate Java', itemQty='22'}, MCG1012=Item{itemName='Data Structure', itemQty='10'}, MCG1010=Item{itemName='Distributed System', itemQty='20'}}
+DATE: 2019-03-31 08:03:31 PMAction: Borrowed an Item: CON9876 | Parameters: USER ID: MCGU1234/ Item ID: CON9876/ Number OF Day: 5 | Action Status: Success | Resonse: true
+DATE: 2019-03-31 08:07:33 PMAction: Borrowed an Item: MCG1010 | Parameters: USER ID: MCGU1234/ Item ID: MCG1010/ Number OF Day: 5 | Action Status: Success | Resonse: true
+DATE: 2019-03-31 09:26:20 PMAction: Borrowed an Item: CON9876 | Parameters: USER ID: MCGU1234/ Item ID: CON9876/ Number OF Day: 6 | Action Status: Success | Resonse: true

@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-31T20:03:31</date>
+  <millis>1554077011086</millis>
+  <sequence>40</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-31T20:03:31</date>
+  <millis>1554077011086</millis>
+  <sequence>41</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>31/03/2019 20:03:31</message>
+</record>
+<record>
+  <date>2019-03-31T20:03:31</date>
+  <millis>1554077011089</millis>
+  <sequence>42</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-31T20:03:31</date>
+  <millis>1554077011090</millis>
+  <sequence>43</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-31T20:03:31</date>
+  <millis>1554077011090</millis>
+  <sequence>44</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-31T20:03:31</date>
+  <millis>1554077011091</millis>
+  <sequence>45</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>MCGU1234</message>
+</record>
+<record>
+  <date>2019-03-31T20:03:31</date>
+  <millis>1554077011091</millis>
+  <sequence>46</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-31T20:03:31</date>
+  <millis>1554077011091</millis>
+  <sequence>47</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>CON9876</message>
+</record>
+<record>
+  <date>2019-03-31T20:03:31</date>
+  <millis>1554077011091</millis>
+  <sequence>48</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-31T20:03:31</date>
+  <millis>1554077011091</millis>
+  <sequence>49</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>true</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-31T21:32:59</date>
+  <millis>1554082379063</millis>
+  <sequence>40</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-31T21:32:59</date>
+  <millis>1554082379063</millis>
+  <sequence>41</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>31/03/2019 21:32:59</message>
+</record>
+<record>
+  <date>2019-03-31T21:32:59</date>
+  <millis>1554082379069</millis>
+  <sequence>42</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-31T21:32:59</date>
+  <millis>1554082379070</millis>
+  <sequence>43</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-31T21:32:59</date>
+  <millis>1554082379070</millis>
+  <sequence>44</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-31T21:32:59</date>
+  <millis>1554082379070</millis>
+  <sequence>45</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>MCGU1234</message>
+</record>
+<record>
+  <date>2019-03-31T21:32:59</date>
+  <millis>1554082379071</millis>
+  <sequence>46</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-31T21:32:59</date>
+  <millis>1554082379071</millis>
+  <sequence>47</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>CON9876</message>
+</record>
+<record>
+  <date>2019-03-31T21:32:59</date>
+  <millis>1554082379071</millis>
+  <sequence>48</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-31T21:32:59</date>
+  <millis>1554082379071</millis>
+  <sequence>49</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>true</message>
+</record>
+<record>
+  <date>2019-03-31T21:33:37</date>
+  <millis>1554082417060</millis>
+  <sequence>50</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-31T21:33:37</date>
+  <millis>1554082417060</millis>
+  <sequence>51</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>31/03/2019 21:33:37</message>
+</record>
+<record>
+  <date>2019-03-31T21:33:37</date>
+  <millis>1554082417062</millis>
+  <sequence>52</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-31T21:33:37</date>
+  <millis>1554082417062</millis>
+  <sequence>53</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-31T21:33:37</date>
+  <millis>1554082417062</millis>
+  <sequence>54</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-31T21:33:37</date>
+  <millis>1554082417063</millis>
+  <sequence>55</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>CONM1234</message>
+</record>
+<record>
+  <date>2019-03-31T21:33:37</date>
+  <millis>1554082417063</millis>
+  <sequence>56</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-31T21:33:37</date>
+  <millis>1554082417064</millis>
+  <sequence>57</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-31T21:33:37</date>
+  <millis>1554082417064</millis>
+  <sequence>58</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-31T21:33:37</date>
+  <millis>1554082417064</millis>
+  <sequence>59</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>All Books Printed</message>
+</record>
+<record>
+  <date>2019-03-31T21:42:17</date>
+  <millis>1554082937324</millis>
+  <sequence>60</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-31T21:42:17</date>
+  <millis>1554082937324</millis>
+  <sequence>61</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>31/03/2019 21:42:17</message>
+</record>
+<record>
+  <date>2019-03-31T21:42:17</date>
+  <millis>1554082937326</millis>
+  <sequence>62</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-31T21:42:17</date>
+  <millis>1554082937327</millis>
+  <sequence>63</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-31T21:42:17</date>
+  <millis>1554082937328</millis>
+  <sequence>64</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-31T21:42:17</date>
+  <millis>1554082937328</millis>
+  <sequence>65</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>MCGU1122</message>
+</record>
+<record>
+  <date>2019-03-31T21:42:17</date>
+  <millis>1554082937328</millis>
+  <sequence>66</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-31T21:42:17</date>
+  <millis>1554082937328</millis>
+  <sequence>67</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>CON9876</message>
+</record>
+<record>
+  <date>2019-03-31T21:42:17</date>
+  <millis>1554082937328</millis>
+  <sequence>68</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-31T21:42:17</date>
+  <millis>1554082937328</millis>
+  <sequence>69</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>true</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-31T22:20:00</date>
+  <millis>1554085200379</millis>
+  <sequence>10</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-31T22:20:00</date>
+  <millis>1554085200379</millis>
+  <sequence>11</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>31/03/2019 22:20:00</message>
+</record>
+<record>
+  <date>2019-03-31T22:20:00</date>
+  <millis>1554085200382</millis>
+  <sequence>12</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-31T22:20:00</date>
+  <millis>1554085200383</millis>
+  <sequence>13</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-31T22:20:00</date>
+  <millis>1554085200383</millis>
+  <sequence>14</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-31T22:20:00</date>
+  <millis>1554085200384</millis>
+  <sequence>15</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>MCGU1234</message>
+</record>
+<record>
+  <date>2019-03-31T22:20:00</date>
+  <millis>1554085200384</millis>
+  <sequence>16</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-31T22:20:00</date>
+  <millis>1554085200384</millis>
+  <sequence>17</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>CON1010</message>
+</record>
+<record>
+  <date>2019-03-31T22:20:00</date>
+  <millis>1554085200384</millis>
+  <sequence>18</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-31T22:20:00</date>
+  <millis>1554085200384</millis>
+  <sequence>19</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>true</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-31T22:27:01</date>
+  <millis>1554085621897</millis>
+  <sequence>0</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-31T22:27:01</date>
+  <millis>1554085621897</millis>
+  <sequence>1</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>31/03/2019 22:27:01</message>
+</record>
+<record>
+  <date>2019-03-31T22:27:01</date>
+  <millis>1554085621897</millis>
+  <sequence>2</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-31T22:27:01</date>
+  <millis>1554085621913</millis>
+  <sequence>3</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-31T22:27:01</date>
+  <millis>1554085621915</millis>
+  <sequence>4</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-31T22:27:01</date>
+  <millis>1554085621915</millis>
+  <sequence>5</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>MCGU1234</message>
+</record>
+<record>
+  <date>2019-03-31T22:27:01</date>
+  <millis>1554085621915</millis>
+  <sequence>6</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-31T22:27:01</date>
+  <millis>1554085621915</millis>
+  <sequence>7</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>CON1010</message>
+</record>
+<record>
+  <date>2019-03-31T22:27:01</date>
+  <millis>1554085621915</millis>
+  <sequence>8</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-31T22:27:01</date>
+  <millis>1554085621915</millis>
+  <sequence>9</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>true</message>
+</record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-31T22:35:08</date>
+  <millis>1554086108927</millis>
+  <sequence>0</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-31T22:35:08</date>
+  <millis>1554086108927</millis>
+  <sequence>1</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>31/03/2019 22:35:08</message>
+</record>
+<record>
+  <date>2019-03-31T22:35:08</date>
+  <millis>1554086108940</millis>
+  <sequence>2</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-31T22:35:08</date>
+  <millis>1554086108941</millis>
+  <sequence>3</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Returning Books</message>
+</record>
+<record>
+  <date>2019-03-31T22:35:08</date>
+  <millis>1554086108941</millis>
+  <sequence>4</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-31T22:35:08</date>
+  <millis>1554086108942</millis>
+  <sequence>5</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>MCGU1234</message>
+</record>
+<record>
+  <date>2019-03-31T22:35:08</date>
+  <millis>1554086108942</millis>
+  <sequence>6</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-31T22:35:08</date>
+  <millis>1554086108942</millis>
+  <sequence>7</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>CON1010</message>
+</record>
+<record>
+  <date>2019-03-31T22:35:08</date>
+  <millis>1554086108942</millis>
+  <sequence>8</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-31T22:35:08</date>
+  <millis>1554086108942</millis>
+  <sequence>9</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>false</message>
+</record>
+<record>
+  <date>2019-03-31T22:37:55</date>
+  <millis>1554086275616</millis>
+  <sequence>10</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-31T22:37:55</date>
+  <millis>1554086275616</millis>
+  <sequence>11</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>31/03/2019 22:37:55</message>
+</record>
+<record>
+  <date>2019-03-31T22:37:55</date>
+  <millis>1554086275618</millis>
+  <sequence>12</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-31T22:37:55</date>
+  <millis>1554086275619</millis>
+  <sequence>13</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-31T22:37:55</date>
+  <millis>1554086275619</millis>
+  <sequence>14</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-31T22:37:55</date>
+  <millis>1554086275620</millis>
+  <sequence>15</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>MCGU1234</message>
+</record>
+<record>
+  <date>2019-03-31T22:37:55</date>
+  <millis>1554086275620</millis>
+  <sequence>16</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-31T22:37:55</date>
+  <millis>1554086275620</millis>
+  <sequence>17</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>CON1010</message>
+</record>
+<record>
+  <date>2019-03-31T22:37:55</date>
+  <millis>1554086275620</millis>
+  <sequence>18</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-31T22:37:55</date>
+  <millis>1554086275620</millis>
+  <sequence>19</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>true</message>
+</record>
+<record>
+  <date>2019-03-31T22:38:12</date>
+  <millis>1554086292594</millis>
+  <sequence>20</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-31T22:38:12</date>
+  <millis>1554086292594</millis>
+  <sequence>21</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>31/03/2019 22:38:12</message>
+</record>
+<record>
+  <date>2019-03-31T22:38:12</date>
+  <millis>1554086292598</millis>
+  <sequence>22</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-31T22:38:12</date>
+  <millis>1554086292598</millis>
+  <sequence>23</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Returning Books</message>
+</record>
+<record>
+  <date>2019-03-31T22:38:12</date>
+  <millis>1554086292598</millis>
+  <sequence>24</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-31T22:38:12</date>
+  <millis>1554086292598</millis>
+  <sequence>25</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>MCGU1234</message>
+</record>
+<record>
+  <date>2019-03-31T22:38:12</date>
+  <millis>1554086292598</millis>
+  <sequence>26</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-31T22:38:12</date>
+  <millis>1554086292598</millis>
+  <sequence>27</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>CON1010</message>
+</record>
+<record>
+  <date>2019-03-31T22:38:12</date>
+  <millis>1554086292598</millis>
+  <sequence>28</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-31T22:38:12</date>
+  <millis>1554086292598</millis>
+  <sequence>29</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>true</message>
+</record>

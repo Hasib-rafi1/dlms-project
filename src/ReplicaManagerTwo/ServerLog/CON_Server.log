@@ -15,3 +15,13 @@
 2019-03-29 20:50:18Manager [CONM1111] add [5] of item [CON1234] success
 2019-03-29 20:50:50 Manager [CONM1111] list all of item success. All Items: CON1012 Data Structure 5 , CON1010 Distributed System 10 , CON1011 Absoulate Java 11 , CON1234 RAFI 5 , 
 2019-03-29 21:09:30 Manager [CONM1111] list all of item success. All Items: CON1012 Data Structure 5 , CON1010 Distributed System 10 , CON1011 Absoulate Java 11 , CON1234 RAFI 5 , 
+2019-03-31 19:57:15 Server for CON started
+2019-03-31 19:59:59Books added Successfully
+2019-03-31 20:00:20 Manager [CONM1111] list all of item success. All Items: CON1012 Data Structure 5 , CON1010 Distributed System 10 , CON1011 Absoulate Java 11 , CON9876 SORTIE 10 , 
+2019-03-31 20:02:05Book removed successful
+2019-03-31 20:02:25 Manager [CONM1111] list all of item success. All Items: CON1012 Data Structure 5 , CON1010 Distributed System 10 , CON1011 Absoulate Java 11 , CON9876 SORTIE 9 , 
+2019-03-31 20:03:31 User [MCGU1234] borrow item [CON9876] success.
+2019-03-31 22:45:13 Server for CON started
+2019-03-31 22:47:25Books added Successfully
+2019-03-31 22:48:04 User [CONU1010] borrow item [CON9876] success.
+2019-03-31 22:48:20 Server borrow item [MCG1010] for user [CONU1010] from server [MCG] success

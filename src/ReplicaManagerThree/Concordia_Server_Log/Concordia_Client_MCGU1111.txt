@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-15T11:55:54</date>
+  <millis>1550249754309</millis>
+  <sequence>110</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-02-15T11:55:54</date>
+  <millis>1550249754312</millis>
+  <sequence>111</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>15/02/2019 11:55:54</message>
+</record>
+<record>
+  <date>2019-02-15T11:55:54</date>
+  <millis>1550249754314</millis>
+  <sequence>112</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-02-15T11:55:54</date>
+  <millis>1550249754315</millis>
+  <sequence>113</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-02-15T11:55:54</date>
+  <millis>1550249754316</millis>
+  <sequence>114</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-02-15T11:55:54</date>
+  <millis>1550249754318</millis>
+  <sequence>115</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>MCGU1111</message>
+</record>
+<record>
+  <date>2019-02-15T11:55:54</date>
+  <millis>1550249754321</millis>
+  <sequence>116</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-02-15T11:55:54</date>
+  <millis>1550249754323</millis>
+  <sequence>117</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>CON1001</message>
+</record>
+<record>
+  <date>2019-02-15T11:55:54</date>
+  <millis>1550249754324</millis>
+  <sequence>118</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-02-15T11:55:54</date>
+  <millis>1550249754326</millis>
+  <sequence>119</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Book borrowed Successfully</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-07T16:58:01</date>
+  <millis>1551995881053</millis>
+  <sequence>102</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:01</date>
+  <millis>1551995881055</millis>
+  <sequence>103</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>07/03/2019 16:58:01</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:01</date>
+  <millis>1551995881056</millis>
+  <sequence>104</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:01</date>
+  <millis>1551995881057</millis>
+  <sequence>105</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:01</date>
+  <millis>1551995881057</millis>
+  <sequence>106</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:01</date>
+  <millis>1551995881058</millis>
+  <sequence>107</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>MCGU1111</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:01</date>
+  <millis>1551995881058</millis>
+  <sequence>108</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:01</date>
+  <millis>1551995881059</millis>
+  <sequence>109</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>CON1001</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:01</date>
+  <millis>1551995881059</millis>
+  <sequence>110</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:01</date>
+  <millis>1551995881060</millis>
+  <sequence>111</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Book borrowed Successfully</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:33</date>
+  <millis>1551995913243</millis>
+  <sequence>112</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:33</date>
+  <millis>1551995913247</millis>
+  <sequence>113</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>07/03/2019 16:58:33</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:33</date>
+  <millis>1551995913247</millis>
+  <sequence>114</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:33</date>
+  <millis>1551995913248</millis>
+  <sequence>115</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Returning Books</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:33</date>
+  <millis>1551995913249</millis>
+  <sequence>116</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:33</date>
+  <millis>1551995913250</millis>
+  <sequence>117</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MCGU1111</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:33</date>
+  <millis>1551995913252</millis>
+  <sequence>118</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:33</date>
+  <millis>1551995913254</millis>
+  <sequence>119</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>CON1001</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:33</date>
+  <millis>1551995913254</millis>
+  <sequence>120</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-07T16:58:33</date>
+  <millis>1551995913255</millis>
+  <sequence>121</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Successfully returned the Book.</message>
+</record>
+<record>
+  <date>2019-03-07T17:13:39</date>
+  <millis>1551996819668</millis>
+  <sequence>122</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-07T17:13:39</date>
+  <millis>1551996819671</millis>
+  <sequence>123</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>07/03/2019 17:13:39</message>
+</record>
+<record>
+  <date>2019-03-07T17:13:39</date>
+  <millis>1551996819673</millis>
+  <sequence>124</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-07T17:13:39</date>
+  <millis>1551996819674</millis>
+  <sequence>125</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-07T17:13:39</date>
+  <millis>1551996819674</millis>
+  <sequence>126</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-07T17:13:39</date>
+  <millis>1551996819675</millis>
+  <sequence>127</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>CONU1111</message>
+</record>
+<record>
+  <date>2019-03-07T17:13:39</date>
+  <millis>1551996819675</millis>
+  <sequence>128</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-07T17:13:39</date>
+  <millis>1551996819676</millis>
+  <sequence>129</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Computer Architecture</message>
+</record>
+<record>
+  <date>2019-03-07T17:13:39</date>
+  <millis>1551996819677</millis>
+  <sequence>130</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-07T17:13:39</date>
+  <millis>1551996819677</millis>
+  <sequence>131</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>:Not available.:0:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              :MCG1001:1:ble.:0:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              :Not Available.:0:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </message>
+</record>
+<record>
+  <date>2019-03-07T17:14:40</date>
+  <millis>1551996880274</millis>
+  <sequence>132</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:40</date>
+  <millis>1551996880275</millis>
+  <sequence>133</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>07/03/2019 17:14:40</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:40</date>
+  <millis>1551996880275</millis>
+  <sequence>134</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:40</date>
+  <millis>1551996880276</millis>
+  <sequence>135</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:40</date>
+  <millis>1551996880276</millis>
+  <sequence>136</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:40</date>
+  <millis>1551996880276</millis>
+  <sequence>137</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>CONU1111</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:40</date>
+  <millis>1551996880277</millis>
+  <sequence>138</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:40</date>
+  <millis>1551996880277</millis>
+  <sequence>139</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Java and Internet Services</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:40</date>
+  <millis>1551996880278</millis>
+  <sequence>140</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:40</date>
+  <millis>1551996880278</millis>
+  <sequence>141</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>:Not available.:0:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              :MCG1006:1:ble.:0:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              :Not Available.:0:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </message>
+</record>
+<record>
+  <date>2019-03-07T17:14:59</date>
+  <millis>1551996899157</millis>
+  <sequence>142</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:59</date>
+  <millis>1551996899158</millis>
+  <sequence>143</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>07/03/2019 17:14:59</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:59</date>
+  <millis>1551996899159</millis>
+  <sequence>144</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:59</date>
+  <millis>1551996899159</millis>
+  <sequence>145</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Returning Books</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:59</date>
+  <millis>1551996899160</millis>
+  <sequence>146</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:59</date>
+  <millis>1551996899160</millis>
+  <sequence>147</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>CONU1111</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:59</date>
+  <millis>1551996899161</millis>
+  <sequence>148</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:59</date>
+  <millis>1551996899161</millis>
+  <sequence>149</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>MCG1001</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:59</date>
+  <millis>1551996899161</millis>
+  <sequence>150</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-07T17:14:59</date>
+  <millis>1551996899162</millis>
+  <sequence>151</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>11</thread>
+  <message>You did not borrow this Book.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   </message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-24T11:25:16</date>
+  <millis>1553441116301</millis>
+  <sequence>10</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:25:16</date>
+  <millis>1553441116314</millis>
+  <sequence>11</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 11:25:16</message>
+</record>
+<record>
+  <date>2019-03-24T11:25:16</date>
+  <millis>1553441116315</millis>
+  <sequence>12</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:25:16</date>
+  <millis>1553441116316</millis>
+  <sequence>13</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:25:16</date>
+  <millis>1553441116317</millis>
+  <sequence>14</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:25:16</date>
+  <millis>1553441116317</millis>
+  <sequence>15</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MCGU1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:25:16</date>
+  <millis>1553441116318</millis>
+  <sequence>16</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:25:16</date>
+  <millis>1553441116318</millis>
+  <sequence>17</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>CON1001</message>
+</record>
+<record>
+  <date>2019-03-24T11:25:16</date>
+  <millis>1553441116319</millis>
+  <sequence>18</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:25:16</date>
+  <millis>1553441116320</millis>
+  <sequence>19</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Book not available right now !</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-24T11:35:20</date>
+  <millis>1553441720106</millis>
+  <sequence>10</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:35:20</date>
+  <millis>1553441720110</millis>
+  <sequence>11</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 11:35:20</message>
+</record>
+<record>
+  <date>2019-03-24T11:35:20</date>
+  <millis>1553441720112</millis>
+  <sequence>12</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:35:20</date>
+  <millis>1553441720114</millis>
+  <sequence>13</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:35:20</date>
+  <millis>1553441720115</millis>
+  <sequence>14</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:35:20</date>
+  <millis>1553441720116</millis>
+  <sequence>15</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MCGU1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:35:20</date>
+  <millis>1553441720117</millis>
+  <sequence>16</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:35:20</date>
+  <millis>1553441720118</millis>
+  <sequence>17</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>CON1001</message>
+</record>
+<record>
+  <date>2019-03-24T11:35:20</date>
+  <millis>1553441720119</millis>
+  <sequence>18</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:35:20</date>
+  <millis>1553441720119</millis>
+  <sequence>19</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Book not available right now !:</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-24T12:45:39</date>
+  <millis>1553445939881</millis>
+  <sequence>0</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:45:39</date>
+  <millis>1553445939885</millis>
+  <sequence>1</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 12:45:39</message>
+</record>
+<record>
+  <date>2019-03-24T12:45:39</date>
+  <millis>1553445939886</millis>
+  <sequence>2</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:45:39</date>
+  <millis>1553445939886</millis>
+  <sequence>3</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:45:39</date>
+  <millis>1553445939887</millis>
+  <sequence>4</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:45:39</date>
+  <millis>1553445939888</millis>
+  <sequence>5</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MCGU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:45:39</date>
+  <millis>1553445939889</millis>
+  <sequence>6</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:45:39</date>
+  <millis>1553445939889</millis>
+  <sequence>7</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>CON1001</message>
+</record>
+<record>
+  <date>2019-03-24T12:45:39</date>
+  <millis>1553445939890</millis>
+  <sequence>8</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:45:39</date>
+  <millis>1553445939890</millis>
+  <sequence>9</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Book not available right now !:</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:10</date>
+  <millis>1553445970362</millis>
+  <sequence>10</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:10</date>
+  <millis>1553445970366</millis>
+  <sequence>11</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:46:10</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:10</date>
+  <millis>1553445970368</millis>
+  <sequence>12</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:10</date>
+  <millis>1553445970369</millis>
+  <sequence>13</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Adding Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:10</date>
+  <millis>1553445970374</millis>
+  <sequence>14</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:10</date>
+  <millis>1553445970379</millis>
+  <sequence>15</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>CONM1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:10</date>
+  <millis>1553445970383</millis>
+  <sequence>16</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:10</date>
+  <millis>1553445970385</millis>
+  <sequence>17</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>CON1001</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:10</date>
+  <millis>1553445970387</millis>
+  <sequence>18</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:10</date>
+  <millis>1553445970389</millis>
+  <sequence>19</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Books added Successfully.</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:17</date>
+  <millis>1553445977483</millis>
+  <sequence>20</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:17</date>
+  <millis>1553445977485</millis>
+  <sequence>21</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:46:17</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:17</date>
+  <millis>1553445977486</millis>
+  <sequence>22</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:17</date>
+  <millis>1553445977487</millis>
+  <sequence>23</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:17</date>
+  <millis>1553445977488</millis>
+  <sequence>24</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:17</date>
+  <millis>1553445977490</millis>
+  <sequence>25</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>CONM1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:17</date>
+  <millis>1553445977495</millis>
+  <sequence>26</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:17</date>
+  <millis>1553445977499</millis>
+  <sequence>27</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:17</date>
+  <millis>1553445977504</millis>
+  <sequence>28</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:17</date>
+  <millis>1553445977506</millis>
+  <sequence>29</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>All Books Printed</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:49</date>
+  <millis>1553446009658</millis>
+  <sequence>30</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:49</date>
+  <millis>1553446009661</millis>
+  <sequence>31</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:46:49</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:49</date>
+  <millis>1553446009663</millis>
+  <sequence>32</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:49</date>
+  <millis>1553446009665</millis>
+  <sequence>33</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Returning Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:49</date>
+  <millis>1553446009667</millis>
+  <sequence>34</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:49</date>
+  <millis>1553446009668</millis>
+  <sequence>35</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>CONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:49</date>
+  <millis>1553446009671</millis>
+  <sequence>36</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:49</date>
+  <millis>1553446009675</millis>
+  <sequence>37</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>CON1001</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:49</date>
+  <millis>1553446009677</millis>
+  <sequence>38</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:46:49</date>
+  <millis>1553446009679</millis>
+  <sequence>39</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>You did not borrow this Book.</message>
+</record>
+<record>
+  <date>2019-03-24T12:47:31</date>
+  <millis>1553446051066</millis>
+  <sequence>40</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:47:31</date>
+  <millis>1553446051071</millis>
+  <sequence>41</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 12:47:31</message>
+</record>
+<record>
+  <date>2019-03-24T12:47:31</date>
+  <millis>1553446051072</millis>
+  <sequence>42</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:47:31</date>
+  <millis>1553446051073</millis>
+  <sequence>43</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Returning Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:47:31</date>
+  <millis>1553446051073</millis>
+  <sequence>44</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:47:31</date>
+  <millis>1553446051073</millis>
+  <sequence>45</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MCGU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:47:31</date>
+  <millis>1553446051074</millis>
+  <sequence>46</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:47:31</date>
+  <millis>1553446051074</millis>
+  <sequence>47</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>CON1001</message>
+</record>
+<record>
+  <date>2019-03-24T12:47:31</date>
+  <millis>1553446051075</millis>
+  <sequence>48</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:47:31</date>
+  <millis>1553446051078</millis>
+  <sequence>49</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Successfully returned the Book.</message>
+</record>
+<record>
+  <date>2019-03-24T12:48:04</date>
+  <millis>1553446084892</millis>
+  <sequence>50</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:48:04</date>
+  <millis>1553446084896</millis>
+  <sequence>51</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:48:04</message>
+</record>
+<record>
+  <date>2019-03-24T12:48:04</date>
+  <millis>1553446084897</millis>
+  <sequence>52</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:48:04</date>
+  <millis>1553446084899</millis>
+  <sequence>53</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-24T12:48:04</date>
+  <millis>1553446084900</millis>
+  <sequence>54</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:48:04</date>
+  <millis>1553446084903</millis>
+  <sequence>55</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>CONM1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:48:04</date>
+  <millis>1553446084907</millis>
+  <sequence>56</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:48:04</date>
+  <millis>1553446084909</millis>
+  <sequence>57</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-24T12:48:04</date>
+  <millis>1553446084910</millis>
+  <sequence>58</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:48:04</date>
+  <millis>1553446084911</millis>
+  <sequence>59</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>All Books Printed</message>
+</record>
+</log>

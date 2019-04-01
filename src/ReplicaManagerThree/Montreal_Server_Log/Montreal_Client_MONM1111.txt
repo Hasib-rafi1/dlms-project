@@ -1,0 +1,3756 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-02-15T11:52:47</date>
+  <millis>1550249567787</millis>
+  <sequence>60</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-02-15T11:52:47</date>
+  <millis>1550249567789</millis>
+  <sequence>61</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>15/02/2019 11:52:47</message>
+</record>
+<record>
+  <date>2019-02-15T11:52:47</date>
+  <millis>1550249567791</millis>
+  <sequence>62</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-02-15T11:52:47</date>
+  <millis>1550249567792</millis>
+  <sequence>63</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Adding Books</message>
+</record>
+<record>
+  <date>2019-02-15T11:52:47</date>
+  <millis>1550249567794</millis>
+  <sequence>64</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-02-15T11:52:47</date>
+  <millis>1550249567796</millis>
+  <sequence>65</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>MONM1111</message>
+</record>
+<record>
+  <date>2019-02-15T11:52:47</date>
+  <millis>1550249567798</millis>
+  <sequence>66</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-02-15T11:52:47</date>
+  <millis>1550249567799</millis>
+  <sequence>67</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>MON1004</message>
+</record>
+<record>
+  <date>2019-02-15T11:52:47</date>
+  <millis>1550249567799</millis>
+  <sequence>68</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-02-15T11:52:47</date>
+  <millis>1550249567800</millis>
+  <sequence>69</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Books added Successfully.</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:02</date>
+  <millis>1550249582162</millis>
+  <sequence>70</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:02</date>
+  <millis>1550249582164</millis>
+  <sequence>71</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>15/02/2019 11:53:02</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:02</date>
+  <millis>1550249582167</millis>
+  <sequence>72</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:02</date>
+  <millis>1550249582168</millis>
+  <sequence>73</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Removing Books</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:02</date>
+  <millis>1550249582170</millis>
+  <sequence>74</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:02</date>
+  <millis>1550249582172</millis>
+  <sequence>75</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>MONM1111</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:02</date>
+  <millis>1550249582174</millis>
+  <sequence>76</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:02</date>
+  <millis>1550249582175</millis>
+  <sequence>77</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>MON1007</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:02</date>
+  <millis>1550249582175</millis>
+  <sequence>78</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:02</date>
+  <millis>1550249582176</millis>
+  <sequence>79</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message> 5 Books successfully Removed</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:23</date>
+  <millis>1550249603040</millis>
+  <sequence>80</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:23</date>
+  <millis>1550249603043</millis>
+  <sequence>81</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>15/02/2019 11:53:23</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:23</date>
+  <millis>1550249603045</millis>
+  <sequence>82</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:23</date>
+  <millis>1550249603046</millis>
+  <sequence>83</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Removing Books</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:23</date>
+  <millis>1550249603048</millis>
+  <sequence>84</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:23</date>
+  <millis>1550249603050</millis>
+  <sequence>85</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>MONM1111</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:23</date>
+  <millis>1550249603051</millis>
+  <sequence>86</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:23</date>
+  <millis>1550249603053</millis>
+  <sequence>87</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>MON1007</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:23</date>
+  <millis>1550249603054</millis>
+  <sequence>88</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-02-15T11:53:23</date>
+  <millis>1550249603056</millis>
+  <sequence>89</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>20</thread>
+  <message>All Books Removed successfully.</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:02</date>
+  <millis>1550249642414</millis>
+  <sequence>90</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:02</date>
+  <millis>1550249642419</millis>
+  <sequence>91</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>15/02/2019 11:54:02</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:02</date>
+  <millis>1550249642420</millis>
+  <sequence>92</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:02</date>
+  <millis>1550249642421</millis>
+  <sequence>93</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:02</date>
+  <millis>1550249642423</millis>
+  <sequence>94</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:02</date>
+  <millis>1550249642423</millis>
+  <sequence>95</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>MONU1112</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:02</date>
+  <millis>1550249642425</millis>
+  <sequence>96</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:02</date>
+  <millis>1550249642426</millis>
+  <sequence>97</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>MON1005</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:02</date>
+  <millis>1550249642427</millis>
+  <sequence>98</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:02</date>
+  <millis>1550249642427</millis>
+  <sequence>99</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Book borrowed Successfully</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:14</date>
+  <millis>1550249654222</millis>
+  <sequence>100</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:14</date>
+  <millis>1550249654224</millis>
+  <sequence>101</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>15/02/2019 11:54:14</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:14</date>
+  <millis>1550249654225</millis>
+  <sequence>102</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:14</date>
+  <millis>1550249654226</millis>
+  <sequence>103</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Returning Books</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:14</date>
+  <millis>1550249654227</millis>
+  <sequence>104</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:14</date>
+  <millis>1550249654228</millis>
+  <sequence>105</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>MONU1112</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:14</date>
+  <millis>1550249654230</millis>
+  <sequence>106</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:14</date>
+  <millis>1550249654231</millis>
+  <sequence>107</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>MON1003</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:14</date>
+  <millis>1550249654235</millis>
+  <sequence>108</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:14</date>
+  <millis>1550249654238</millis>
+  <sequence>109</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>You did not borrow this Book.</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:24</date>
+  <millis>1550249664747</millis>
+  <sequence>110</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:24</date>
+  <millis>1550249664749</millis>
+  <sequence>111</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>15/02/2019 11:54:24</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:24</date>
+  <millis>1550249664751</millis>
+  <sequence>112</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:24</date>
+  <millis>1550249664752</millis>
+  <sequence>113</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Returning Books</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:24</date>
+  <millis>1550249664753</millis>
+  <sequence>114</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:24</date>
+  <millis>1550249664755</millis>
+  <sequence>115</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>MONU1112</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:24</date>
+  <millis>1550249664757</millis>
+  <sequence>116</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:24</date>
+  <millis>1550249664759</millis>
+  <sequence>117</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>MON1005</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:24</date>
+  <millis>1550249664760</millis>
+  <sequence>118</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-02-15T11:54:24</date>
+  <millis>1550249664762</millis>
+  <sequence>119</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>21</thread>
+  <message>Successfully returned the Book.</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-24T11:04:08</date>
+  <millis>1553439848000</millis>
+  <sequence>0</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:04:08</date>
+  <millis>1553439848009</millis>
+  <sequence>1</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 11:04:07</message>
+</record>
+<record>
+  <date>2019-03-24T11:04:08</date>
+  <millis>1553439848010</millis>
+  <sequence>2</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:04:08</date>
+  <millis>1553439848011</millis>
+  <sequence>3</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Adding Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:04:08</date>
+  <millis>1553439848011</millis>
+  <sequence>4</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:04:08</date>
+  <millis>1553439848012</millis>
+  <sequence>5</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MONM1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:04:08</date>
+  <millis>1553439848013</millis>
+  <sequence>6</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:04:08</date>
+  <millis>1553439848013</millis>
+  <sequence>7</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T11:04:08</date>
+  <millis>1553439848014</millis>
+  <sequence>8</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:04:08</date>
+  <millis>1553439848015</millis>
+  <sequence>9</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Books added Successfully.</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:33</date>
+  <millis>1553439993456</millis>
+  <sequence>10</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:33</date>
+  <millis>1553439993459</millis>
+  <sequence>11</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 11:06:33</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:33</date>
+  <millis>1553439993460</millis>
+  <sequence>12</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:33</date>
+  <millis>1553439993460</millis>
+  <sequence>13</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:33</date>
+  <millis>1553439993461</millis>
+  <sequence>14</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:33</date>
+  <millis>1553439993461</millis>
+  <sequence>15</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:33</date>
+  <millis>1553439993462</millis>
+  <sequence>16</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:33</date>
+  <millis>1553439993463</millis>
+  <sequence>17</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>CON6651</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:33</date>
+  <millis>1553439993464</millis>
+  <sequence>18</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:33</date>
+  <millis>1553439993464</millis>
+  <sequence>19</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Book borrowed Successfully                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </message>
+</record>
+<record>
+  <date>2019-03-24T11:06:56</date>
+  <millis>1553440016268</millis>
+  <sequence>20</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:56</date>
+  <millis>1553440016276</millis>
+  <sequence>21</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 11:06:56</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:56</date>
+  <millis>1553440016278</millis>
+  <sequence>22</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:56</date>
+  <millis>1553440016280</millis>
+  <sequence>23</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:56</date>
+  <millis>1553440016281</millis>
+  <sequence>24</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:56</date>
+  <millis>1553440016283</millis>
+  <sequence>25</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:56</date>
+  <millis>1553440016285</millis>
+  <sequence>26</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:56</date>
+  <millis>1553440016289</millis>
+  <sequence>27</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:56</date>
+  <millis>1553440016291</millis>
+  <sequence>28</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:06:56</date>
+  <millis>1553440016294</millis>
+  <sequence>29</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Book borrowed Successfully</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060191</millis>
+  <sequence>30</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060194</millis>
+  <sequence>31</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 11:07:40</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060194</millis>
+  <sequence>32</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060195</millis>
+  <sequence>33</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Returning Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060196</millis>
+  <sequence>34</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060197</millis>
+  <sequence>35</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060200</millis>
+  <sequence>36</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060201</millis>
+  <sequence>37</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>CON6651</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060202</millis>
+  <sequence>38</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060203</millis>
+  <sequence>39</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Successfully returned the Book.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060218</millis>
+  <sequence>40</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060220</millis>
+  <sequence>41</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 11:07:40</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060221</millis>
+  <sequence>42</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060222</millis>
+  <sequence>43</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060222</millis>
+  <sequence>44</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060223</millis>
+  <sequence>45</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060223</millis>
+  <sequence>46</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060224</millis>
+  <sequence>47</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>CON6231</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060224</millis>
+  <sequence>48</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:07:40</date>
+  <millis>1553440060225</millis>
+  <sequence>49</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Book borrowed Successfully                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </message>
+</record>
+<record>
+  <date>2019-03-24T11:08:13</date>
+  <millis>1553440093390</millis>
+  <sequence>50</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:08:13</date>
+  <millis>1553440093396</millis>
+  <sequence>51</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 11:08:13</message>
+</record>
+<record>
+  <date>2019-03-24T11:08:13</date>
+  <millis>1553440093400</millis>
+  <sequence>52</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:08:13</date>
+  <millis>1553440093401</millis>
+  <sequence>53</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:08:13</date>
+  <millis>1553440093402</millis>
+  <sequence>54</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:08:13</date>
+  <millis>1553440093403</millis>
+  <sequence>55</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:08:13</date>
+  <millis>1553440093406</millis>
+  <sequence>56</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:08:13</date>
+  <millis>1553440093406</millis>
+  <sequence>57</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Distributed System</message>
+</record>
+<record>
+  <date>2019-03-24T11:08:13</date>
+  <millis>1553440093407</millis>
+  <sequence>58</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:08:13</date>
+  <millis>1553440093408</millis>
+  <sequence>59</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>:CON1001:1:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     :Not Available.:0:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              :MON6651:1:ble.:0:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </message>
+</record>
+<record>
+  <date>2019-03-24T11:10:06</date>
+  <millis>1553440206259</millis>
+  <sequence>60</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:10:06</date>
+  <millis>1553440206265</millis>
+  <sequence>61</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>24/03/2019 11:10:06</message>
+</record>
+<record>
+  <date>2019-03-24T11:10:06</date>
+  <millis>1553440206267</millis>
+  <sequence>62</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:10:06</date>
+  <millis>1553440206268</millis>
+  <sequence>63</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:10:06</date>
+  <millis>1553440206268</millis>
+  <sequence>64</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:10:06</date>
+  <millis>1553440206269</millis>
+  <sequence>65</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>MCGU1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:10:06</date>
+  <millis>1553440206270</millis>
+  <sequence>66</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:10:06</date>
+  <millis>1553440206270</millis>
+  <sequence>67</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T11:10:06</date>
+  <millis>1553440206271</millis>
+  <sequence>68</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:10:06</date>
+  <millis>1553440206271</millis>
+  <sequence>69</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Book not available right now !</message>
+</record>
+<record>
+  <date>2019-03-24T11:12:24</date>
+  <millis>1553440344085</millis>
+  <sequence>70</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:12:24</date>
+  <millis>1553440344087</millis>
+  <sequence>71</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>24/03/2019 11:12:24</message>
+</record>
+<record>
+  <date>2019-03-24T11:12:24</date>
+  <millis>1553440344088</millis>
+  <sequence>72</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:12:24</date>
+  <millis>1553440344088</millis>
+  <sequence>73</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:12:24</date>
+  <millis>1553440344089</millis>
+  <sequence>74</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:12:24</date>
+  <millis>1553440344090</millis>
+  <sequence>75</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>MCGU1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:12:24</date>
+  <millis>1553440344091</millis>
+  <sequence>76</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:12:24</date>
+  <millis>1553440344091</millis>
+  <sequence>77</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T11:12:24</date>
+  <millis>1553440344091</millis>
+  <sequence>78</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:12:24</date>
+  <millis>1553440344092</millis>
+  <sequence>79</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Book not available right now !</message>
+</record>
+<record>
+  <date>2019-03-24T11:15:31</date>
+  <millis>1553440531949</millis>
+  <sequence>80</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:15:31</date>
+  <millis>1553440531958</millis>
+  <sequence>81</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 11:15:31</message>
+</record>
+<record>
+  <date>2019-03-24T11:15:31</date>
+  <millis>1553440531962</millis>
+  <sequence>82</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:15:31</date>
+  <millis>1553440531964</millis>
+  <sequence>83</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:15:31</date>
+  <millis>1553440531965</millis>
+  <sequence>84</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:15:31</date>
+  <millis>1553440531968</millis>
+  <sequence>85</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:15:31</date>
+  <millis>1553440531970</millis>
+  <sequence>86</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:15:31</date>
+  <millis>1553440531972</millis>
+  <sequence>87</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T11:15:31</date>
+  <millis>1553440531974</millis>
+  <sequence>88</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:15:31</date>
+  <millis>1553440531976</millis>
+  <sequence>89</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Book not available right now !</message>
+</record>
+<record>
+  <date>2019-03-24T11:16:19</date>
+  <millis>1553440579503</millis>
+  <sequence>90</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:16:19</date>
+  <millis>1553440579504</millis>
+  <sequence>91</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 11:16:19</message>
+</record>
+<record>
+  <date>2019-03-24T11:16:19</date>
+  <millis>1553440579505</millis>
+  <sequence>92</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:16:19</date>
+  <millis>1553440579505</millis>
+  <sequence>93</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:16:19</date>
+  <millis>1553440579506</millis>
+  <sequence>94</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:16:19</date>
+  <millis>1553440579506</millis>
+  <sequence>95</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:16:19</date>
+  <millis>1553440579507</millis>
+  <sequence>96</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:16:19</date>
+  <millis>1553440579507</millis>
+  <sequence>97</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>CON1001</message>
+</record>
+<record>
+  <date>2019-03-24T11:16:19</date>
+  <millis>1553440579508</millis>
+  <sequence>98</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:16:19</date>
+  <millis>1553440579508</millis>
+  <sequence>99</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Book not available right now !                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  </message>
+</record>
+<record>
+  <date>2019-03-24T11:17:09</date>
+  <millis>1553440629315</millis>
+  <sequence>100</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T11:17:09</date>
+  <millis>1553440629322</millis>
+  <sequence>101</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>24/03/2019 11:17:09</message>
+</record>
+<record>
+  <date>2019-03-24T11:17:09</date>
+  <millis>1553440629324</millis>
+  <sequence>102</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T11:17:09</date>
+  <millis>1553440629326</millis>
+  <sequence>103</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T11:17:09</date>
+  <millis>1553440629331</millis>
+  <sequence>104</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T11:17:09</date>
+  <millis>1553440629334</millis>
+  <sequence>105</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>CONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T11:17:09</date>
+  <millis>1553440629335</millis>
+  <sequence>106</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T11:17:09</date>
+  <millis>1553440629335</millis>
+  <sequence>107</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T11:17:09</date>
+  <millis>1553440629336</millis>
+  <sequence>108</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T11:17:09</date>
+  <millis>1553440629336</millis>
+  <sequence>109</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>14</thread>
+  <message>Book not available right now !</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-24T12:28:39</date>
+  <millis>1553444919186</millis>
+  <sequence>20</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:28:39</date>
+  <millis>1553444919189</millis>
+  <sequence>21</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:28:39</message>
+</record>
+<record>
+  <date>2019-03-24T12:28:39</date>
+  <millis>1553444919191</millis>
+  <sequence>22</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:28:39</date>
+  <millis>1553444919192</millis>
+  <sequence>23</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Adding Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:28:39</date>
+  <millis>1553444919193</millis>
+  <sequence>24</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:28:39</date>
+  <millis>1553444919195</millis>
+  <sequence>25</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONM1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:28:39</date>
+  <millis>1553444919197</millis>
+  <sequence>26</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:28:39</date>
+  <millis>1553444919198</millis>
+  <sequence>27</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T12:28:39</date>
+  <millis>1553444919201</millis>
+  <sequence>28</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:28:39</date>
+  <millis>1553444919203</millis>
+  <sequence>29</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Books added Successfully.</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:45</date>
+  <millis>1553445045758</millis>
+  <sequence>30</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:45</date>
+  <millis>1553445045760</millis>
+  <sequence>31</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:30:45</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:45</date>
+  <millis>1553445045769</millis>
+  <sequence>32</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:45</date>
+  <millis>1553445045772</millis>
+  <sequence>33</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:45</date>
+  <millis>1553445045774</millis>
+  <sequence>34</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:45</date>
+  <millis>1553445045778</millis>
+  <sequence>35</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:45</date>
+  <millis>1553445045781</millis>
+  <sequence>36</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:45</date>
+  <millis>1553445045783</millis>
+  <sequence>37</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:45</date>
+  <millis>1553445045786</millis>
+  <sequence>38</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:45</date>
+  <millis>1553445045788</millis>
+  <sequence>39</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Book borrowed Successfully</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:56</date>
+  <millis>1553445056858</millis>
+  <sequence>40</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:56</date>
+  <millis>1553445056859</millis>
+  <sequence>41</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:30:56</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:56</date>
+  <millis>1553445056860</millis>
+  <sequence>42</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:56</date>
+  <millis>1553445056860</millis>
+  <sequence>43</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:56</date>
+  <millis>1553445056861</millis>
+  <sequence>44</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:56</date>
+  <millis>1553445056861</millis>
+  <sequence>45</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:56</date>
+  <millis>1553445056862</millis>
+  <sequence>46</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:56</date>
+  <millis>1553445056862</millis>
+  <sequence>47</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>CON6651</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:56</date>
+  <millis>1553445056863</millis>
+  <sequence>48</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:30:56</date>
+  <millis>1553445056863</millis>
+  <sequence>49</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Book borrowed Successfully                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083067</millis>
+  <sequence>50</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083068</millis>
+  <sequence>51</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:31:23</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083069</millis>
+  <sequence>52</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083070</millis>
+  <sequence>53</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Returning Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083072</millis>
+  <sequence>54</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083076</millis>
+  <sequence>55</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083078</millis>
+  <sequence>56</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083080</millis>
+  <sequence>57</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>CON6651</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083082</millis>
+  <sequence>58</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083082</millis>
+  <sequence>59</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Successfully returned the Book.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 </message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083097</millis>
+  <sequence>60</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083098</millis>
+  <sequence>61</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:31:23</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083098</millis>
+  <sequence>62</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083099</millis>
+  <sequence>63</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083099</millis>
+  <sequence>64</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083100</millis>
+  <sequence>65</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083100</millis>
+  <sequence>66</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083101</millis>
+  <sequence>67</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>CON6231</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083102</millis>
+  <sequence>68</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:31:23</date>
+  <millis>1553445083102</millis>
+  <sequence>69</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Book borrowed Successfully                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </message>
+</record>
+<record>
+  <date>2019-03-24T12:32:03</date>
+  <millis>1553445123349</millis>
+  <sequence>70</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:03</date>
+  <millis>1553445123351</millis>
+  <sequence>71</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:32:03</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:03</date>
+  <millis>1553445123353</millis>
+  <sequence>72</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:03</date>
+  <millis>1553445123355</millis>
+  <sequence>73</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:03</date>
+  <millis>1553445123357</millis>
+  <sequence>74</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:03</date>
+  <millis>1553445123359</millis>
+  <sequence>75</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:03</date>
+  <millis>1553445123362</millis>
+  <sequence>76</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:03</date>
+  <millis>1553445123365</millis>
+  <sequence>77</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Distributed System</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:03</date>
+  <millis>1553445123366</millis>
+  <sequence>78</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:03</date>
+  <millis>1553445123368</millis>
+  <sequence>79</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>:CON6651:2:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     :Not Available.:0:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              :MON6651:0:ble.:0:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              </message>
+</record>
+<record>
+  <date>2019-03-24T12:32:54</date>
+  <millis>1553445174868</millis>
+  <sequence>80</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:54</date>
+  <millis>1553445174874</millis>
+  <sequence>81</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 12:32:54</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:54</date>
+  <millis>1553445174875</millis>
+  <sequence>82</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:54</date>
+  <millis>1553445174877</millis>
+  <sequence>83</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:54</date>
+  <millis>1553445174880</millis>
+  <sequence>84</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:54</date>
+  <millis>1553445174882</millis>
+  <sequence>85</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MCGU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:54</date>
+  <millis>1553445174884</millis>
+  <sequence>86</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:54</date>
+  <millis>1553445174885</millis>
+  <sequence>87</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:54</date>
+  <millis>1553445174885</millis>
+  <sequence>88</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:32:54</date>
+  <millis>1553445174885</millis>
+  <sequence>89</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Book not available right now !:</message>
+</record>
+<record>
+  <date>2019-03-24T12:33:31</date>
+  <millis>1553445211303</millis>
+  <sequence>90</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:33:31</date>
+  <millis>1553445211306</millis>
+  <sequence>91</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:33:31</message>
+</record>
+<record>
+  <date>2019-03-24T12:33:31</date>
+  <millis>1553445211307</millis>
+  <sequence>92</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:33:31</date>
+  <millis>1553445211308</millis>
+  <sequence>93</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Returning Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:33:31</date>
+  <millis>1553445211308</millis>
+  <sequence>94</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:33:31</date>
+  <millis>1553445211309</millis>
+  <sequence>95</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:33:31</date>
+  <millis>1553445211310</millis>
+  <sequence>96</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:33:31</date>
+  <millis>1553445211310</millis>
+  <sequence>97</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T12:33:31</date>
+  <millis>1553445211312</millis>
+  <sequence>98</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:33:31</date>
+  <millis>1553445211312</millis>
+  <sequence>99</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Successfully returned the Book.</message>
+</record>
+<record>
+  <date>2019-03-24T12:34:41</date>
+  <millis>1553445281705</millis>
+  <sequence>100</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:34:41</date>
+  <millis>1553445281708</millis>
+  <sequence>101</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:34:41</message>
+</record>
+<record>
+  <date>2019-03-24T12:34:41</date>
+  <millis>1553445281709</millis>
+  <sequence>102</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:34:41</date>
+  <millis>1553445281710</millis>
+  <sequence>103</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-24T12:34:41</date>
+  <millis>1553445281711</millis>
+  <sequence>104</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:34:41</date>
+  <millis>1553445281713</millis>
+  <sequence>105</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONM1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:34:41</date>
+  <millis>1553445281715</millis>
+  <sequence>106</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:34:41</date>
+  <millis>1553445281717</millis>
+  <sequence>107</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-24T12:34:41</date>
+  <millis>1553445281718</millis>
+  <sequence>108</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:34:41</date>
+  <millis>1553445281719</millis>
+  <sequence>109</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>All Books Printed</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:31</date>
+  <millis>1553445391567</millis>
+  <sequence>110</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:31</date>
+  <millis>1553445391570</millis>
+  <sequence>111</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:36:31</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:31</date>
+  <millis>1553445391572</millis>
+  <sequence>112</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:31</date>
+  <millis>1553445391576</millis>
+  <sequence>113</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Adding Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:31</date>
+  <millis>1553445391580</millis>
+  <sequence>114</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:31</date>
+  <millis>1553445391583</millis>
+  <sequence>115</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONM1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:31</date>
+  <millis>1553445391585</millis>
+  <sequence>116</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:31</date>
+  <millis>1553445391585</millis>
+  <sequence>117</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:31</date>
+  <millis>1553445391586</millis>
+  <sequence>118</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:31</date>
+  <millis>1553445391587</millis>
+  <sequence>119</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Books added Successfully.</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:44</date>
+  <millis>1553445404036</millis>
+  <sequence>120</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:44</date>
+  <millis>1553445404038</millis>
+  <sequence>121</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:36:44</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:44</date>
+  <millis>1553445404039</millis>
+  <sequence>122</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:44</date>
+  <millis>1553445404041</millis>
+  <sequence>123</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:44</date>
+  <millis>1553445404043</millis>
+  <sequence>124</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:44</date>
+  <millis>1553445404045</millis>
+  <sequence>125</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONM1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:44</date>
+  <millis>1553445404046</millis>
+  <sequence>126</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:44</date>
+  <millis>1553445404047</millis>
+  <sequence>127</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:44</date>
+  <millis>1553445404048</millis>
+  <sequence>128</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:36:44</date>
+  <millis>1553445404048</millis>
+  <sequence>129</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>All Books Printed</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-24T12:39:16</date>
+  <millis>1553445556776</millis>
+  <sequence>0</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:16</date>
+  <millis>1553445556781</millis>
+  <sequence>1</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:39:16</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:16</date>
+  <millis>1553445556782</millis>
+  <sequence>2</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:16</date>
+  <millis>1553445556782</millis>
+  <sequence>3</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Adding Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:16</date>
+  <millis>1553445556783</millis>
+  <sequence>4</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:16</date>
+  <millis>1553445556784</millis>
+  <sequence>5</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONM1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:16</date>
+  <millis>1553445556785</millis>
+  <sequence>6</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:16</date>
+  <millis>1553445556785</millis>
+  <sequence>7</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:16</date>
+  <millis>1553445556786</millis>
+  <sequence>8</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:16</date>
+  <millis>1553445556786</millis>
+  <sequence>9</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Books added Successfully.</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:22</date>
+  <millis>1553445562782</millis>
+  <sequence>10</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:22</date>
+  <millis>1553445562796</millis>
+  <sequence>11</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:39:22</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:22</date>
+  <millis>1553445562801</millis>
+  <sequence>12</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:22</date>
+  <millis>1553445562804</millis>
+  <sequence>13</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:22</date>
+  <millis>1553445562805</millis>
+  <sequence>14</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:22</date>
+  <millis>1553445562805</millis>
+  <sequence>15</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONM1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:22</date>
+  <millis>1553445562806</millis>
+  <sequence>16</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:22</date>
+  <millis>1553445562806</millis>
+  <sequence>17</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:22</date>
+  <millis>1553445562807</millis>
+  <sequence>18</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:22</date>
+  <millis>1553445562808</millis>
+  <sequence>19</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>All Books Printed</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:43</date>
+  <millis>1553445583296</millis>
+  <sequence>20</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:43</date>
+  <millis>1553445583297</millis>
+  <sequence>21</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:39:43</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:43</date>
+  <millis>1553445583298</millis>
+  <sequence>22</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:43</date>
+  <millis>1553445583300</millis>
+  <sequence>23</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:43</date>
+  <millis>1553445583302</millis>
+  <sequence>24</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:43</date>
+  <millis>1553445583304</millis>
+  <sequence>25</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:43</date>
+  <millis>1553445583306</millis>
+  <sequence>26</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:43</date>
+  <millis>1553445583307</millis>
+  <sequence>27</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:43</date>
+  <millis>1553445583308</millis>
+  <sequence>28</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:39:43</date>
+  <millis>1553445583308</millis>
+  <sequence>29</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Book borrowed Successfully</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:05</date>
+  <millis>1553445605954</millis>
+  <sequence>30</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:05</date>
+  <millis>1553445605958</millis>
+  <sequence>31</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>24/03/2019 12:40:05</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:05</date>
+  <millis>1553445605961</millis>
+  <sequence>32</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:05</date>
+  <millis>1553445605963</millis>
+  <sequence>33</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Borrowing Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:05</date>
+  <millis>1553445605964</millis>
+  <sequence>34</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:05</date>
+  <millis>1553445605965</millis>
+  <sequence>35</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MCGU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:05</date>
+  <millis>1553445605965</millis>
+  <sequence>36</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:05</date>
+  <millis>1553445605966</millis>
+  <sequence>37</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:05</date>
+  <millis>1553445605966</millis>
+  <sequence>38</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:05</date>
+  <millis>1553445605967</millis>
+  <sequence>39</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>13</thread>
+  <message>Book not available right now !:</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:28</date>
+  <millis>1553445628602</millis>
+  <sequence>40</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:28</date>
+  <millis>1553445628605</millis>
+  <sequence>41</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:40:28</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:28</date>
+  <millis>1553445628607</millis>
+  <sequence>42</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:28</date>
+  <millis>1553445628610</millis>
+  <sequence>43</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Returning Books</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:28</date>
+  <millis>1553445628611</millis>
+  <sequence>44</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:28</date>
+  <millis>1553445628614</millis>
+  <sequence>45</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONU1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:28</date>
+  <millis>1553445628617</millis>
+  <sequence>46</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:28</date>
+  <millis>1553445628621</millis>
+  <sequence>47</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MON6651</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:28</date>
+  <millis>1553445628623</millis>
+  <sequence>48</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:28</date>
+  <millis>1553445628624</millis>
+  <sequence>49</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Successfully returned the Book.</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:45</date>
+  <millis>1553445645235</millis>
+  <sequence>50</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:45</date>
+  <millis>1553445645236</millis>
+  <sequence>51</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>24/03/2019 12:40:45</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:45</date>
+  <millis>1553445645239</millis>
+  <sequence>52</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:45</date>
+  <millis>1553445645240</millis>
+  <sequence>53</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:45</date>
+  <millis>1553445645241</millis>
+  <sequence>54</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:45</date>
+  <millis>1553445645242</millis>
+  <sequence>55</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>MONM1111</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:45</date>
+  <millis>1553445645243</millis>
+  <sequence>56</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:45</date>
+  <millis>1553445645244</millis>
+  <sequence>57</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:45</date>
+  <millis>1553445645249</millis>
+  <sequence>58</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-03-24T12:40:45</date>
+  <millis>1553445645253</millis>
+  <sequence>59</sequence>
+  <logger>DLMS_Client</logger>
+  <level>INFO</level>
+  <class>DLMS_Montreal_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>All Books Printed</message>
+</record>
+</log>

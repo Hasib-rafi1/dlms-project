@@ -211,6 +211,7 @@ public class MontrealServer {
 	}
 	
 	public static void sendMessageBackToFrontend(String message) {
+		System.out.println(message);
 		DatagramSocket aSocket = null;
 		try {
 			aSocket = new DatagramSocket();

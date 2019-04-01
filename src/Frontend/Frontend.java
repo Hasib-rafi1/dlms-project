@@ -1,5 +1,11 @@
 package Frontend;
 
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.InetAddress;
+import java.net.MulticastSocket;
+import java.net.SocketException;
+
 import org.omg.CORBA.ORB;
 import org.omg.CosNaming.NameComponent;
 import org.omg.CosNaming.NamingContextExt;
@@ -19,7 +25,7 @@ public class Frontend {
 		try {
 			FrontEndImplimentation obj = new FrontEndImplimentation();
 			Runnable task = () -> {
-				obj.receive();
+				receive(obj);
 			};
 			Thread thread = new Thread(task);
 			thread.start();
@@ -58,5 +64,37 @@ public class Frontend {
 
 		System.out.println("frontend Exiting ...");
 
+	}
+	
+	public static void receive(FrontEndImplimentation obj) {
+		MulticastSocket aSocket = null;
+		try {
+
+			aSocket = new MulticastSocket(1413);
+
+			aSocket.joinGroup(InetAddress.getByName("230.1.1.5"));
+
+			byte[] buffer = new byte[1000];
+			System.out.println("Server Started............");
+
+			while (true) {
+				DatagramPacket request = new DatagramPacket(buffer, buffer.length);
+				aSocket.receive(request);
+				String sentence = new String( request.getData(), 0,
+						request.getLength() );
+				System.out.println(sentence);
+				DatagramPacket reply = new DatagramPacket(request.getData(), request.getLength(), request.getAddress(),
+						request.getPort());
+				aSocket.send(reply);
+			}
+
+		} catch (SocketException e) {
+			System.out.println("Socket: " + e.getMessage());
+		} catch (IOException e) {
+			System.out.println("IO: " + e.getMessage());
+		} finally {
+			if (aSocket != null)
+				aSocket.close();
+		}
 	}
 }

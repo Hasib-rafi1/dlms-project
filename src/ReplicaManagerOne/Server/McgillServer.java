@@ -214,6 +214,7 @@ public class McgillServer {
 	}
 	
 	public static void sendMessageBackToFrontend(String message) {
+		System.out.println(message);
 		DatagramSocket aSocket = null;
 		try {
 			aSocket = new DatagramSocket();

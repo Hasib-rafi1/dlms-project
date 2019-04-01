@@ -86,3 +86,11 @@ Action: List of Items  | Resonse: {CON1012=Item{itemName='Data Structure', itemQ
 Action: ADD ITEM CON1234 | Resonse: ITEM ADDED: true
 Action: List of Items  | Resonse: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}, CON1234=Item{itemName='RAFI', itemQty='5'}}
 Action: List of Items  | Resonse: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}, CON1234=Item{itemName='RAFI', itemQty='5'}}
+Action: ADD ITEM CON9876 | Resonse: ITEM ADDED: true
+Action: List of Items  | Resonse: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}, CON9876=Item{itemName='SORTIE', itemQty='10'}}
+Action: REMOVE ITEM CON9876 | Resonse: ITEM REMOVED: true
+Action: List of Items  | Resonse: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}, CON9876=Item{itemName='SORTIE', itemQty='9'}}
+Action: ADD ITEM CON9876 | Resonse: ITEM ADDED: true
+Action: List of Items  | Resonse: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}, CON9876=Item{itemName='10', itemQty='10'}}
+Action: REMOVE ITEM CON9876 | Resonse: ITEM REMOVED: true
+Action: List of Items  | Resonse: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}, CON9876=Item{itemName='10', itemQty='9'}}

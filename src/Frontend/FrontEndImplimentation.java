@@ -134,38 +134,6 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 
 	}
 	
-
-	public static void receive() {
-		MulticastSocket aSocket = null;
-		try {
-
-			aSocket = new MulticastSocket(1413);
-
-			aSocket.joinGroup(InetAddress.getByName("230.1.1.5"));
-
-			byte[] buffer = new byte[1000];
-			System.out.println("Server Started............");
-
-			while (true) {
-				DatagramPacket request = new DatagramPacket(buffer, buffer.length);
-				aSocket.receive(request);
-				String sentence = new String( request.getData(), 0,
-						request.getLength() );
-				System.out.println(sentence);
-				DatagramPacket reply = new DatagramPacket(request.getData(), request.getLength(), request.getAddress(),
-						request.getPort());
-				aSocket.send(reply);
-			}
-
-		} catch (SocketException e) {
-			System.out.println("Socket: " + e.getMessage());
-		} catch (IOException e) {
-			System.out.println("IO: " + e.getMessage());
-		} finally {
-			if (aSocket != null)
-				aSocket.close();
-		}
-	}
 	
 	// implement shutdown() method
 	public void shutdown() {
