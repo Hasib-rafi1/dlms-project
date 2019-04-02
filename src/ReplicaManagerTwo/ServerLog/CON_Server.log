@@ -37,3 +37,39 @@
 2019-04-01 02:50:33 Server for CON started
 2019-04-01 02:53:09 Manager [CONM1111] list all of item success. All Items: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}}
 2019-04-01 02:53:43 User [CONU1234] found all item named [DISTRIBUTED SYSTEM] success . Items: Concordia CON1010=Item{itemName='Distributed System', itemQty='10'}  Montreal MON1010=Item{itemName='Distributed System', itemQty='20'} McGill MCG1010=Item{itemName='Distributed System', itemQty='20'}
+2019-04-01 17:59:44 Server for CON started
+2019-04-01 18:00:38Books added Successfully
+2019-04-01 18:00:38Books added Successfully
+2019-04-01 18:00:38Books added Successfully
+2019-04-01 18:23:45 Server for CON started
+2019-04-01 18:24:58Books added Successfully
+2019-04-01 18:24:58Books added Successfully
+2019-04-01 18:24:58Books added Successfully
+2019-04-01 18:24:58Books added Successfully
+2019-04-01 18:24:58Books added Successfully
+2019-04-01 18:24:58Books added Successfully
+2019-04-01 18:24:59Books added Successfully
+2019-04-01 18:29:45 Server for CON started
+2019-04-01 18:30:56Books added Successfully
+2019-04-01 18:35:00Books added Successfully
+2019-04-01 19:02:53 Server for CON started
+2019-04-01 19:04:25Books added Successfully
+2019-04-01 19:07:23Books added Successfully
+2019-04-01 19:12:00Books Can't be added
+2019-04-01 19:19:56Books added Successfully
+2019-04-01 19:21:33Book removed successful
+2019-04-01 19:22:16 Manager [CONM1234] list all of item success. All Items: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON3421=Item{itemName='JAI', itemQty='10'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}, CON9876=Item{itemName='RAFI', itemQty='10'}, CON9866=Item{itemName='AF', itemQty='5'}}
+2019-04-02 04:57:35 Server for CON started
+2019-04-02 04:58:57Books added Successfully
+2019-04-02 05:25:07 Server for CON started
+2019-04-02 05:26:02Books added Successfully
+2019-04-02 05:26:23Book removed successful
+2019-04-02 05:26:40 Manager [CONM1234] list all of item success. All Items: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}, CON9876=Item{itemName='RAFI', itemQty='9'}}
+2019-04-02 05:27:01 Manager [CONM1234] list all of item success. All Items: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}, CON9876=Item{itemName='RAFI', itemQty='9'}}
+2019-04-02 05:28:10 Manager [CONM1234] list all of item success. All Items: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}, CON9876=Item{itemName='RAFI', itemQty='9'}}
+2019-04-02 05:28:24 Manager [CONM1234] list all of item success. All Items: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='10'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}, CON9876=Item{itemName='RAFI', itemQty='9'}}
+2019-04-02 05:29:11 Server borrow item [MON1010] for user [CONU1234] from server [MON] success
+2019-04-02 05:29:37 User [CONU1234] found all item named [DISTRIBUTED SYSTEM] success . Items: Concordia CON1010=Item{itemName='Distributed System', itemQty='10'}  Montreal MON1010=Item{itemName='Distributed System', itemQty='19'} McGill MCG1010=Item{itemName='Distributed System', itemQty='20'}
+2019-04-02 05:31:31 User [CONU1234] return item [CON1010] failed.
+2019-04-02 05:31:58 User [CONU1234] borrow item [CON1010] success.
+2019-04-02 05:31:58 Server return item [MON1010] for user [CONU1234] to server [MON] success

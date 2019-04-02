@@ -4,21 +4,14 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.MulticastSocket;
 import java.net.SocketException;
-import java.util.Iterator;
-import java.util.PriorityQueue;
 
 import ReplicaManagerOne.ImplementRemoteInterface.McgillClass;
-import ReplicaManagerOne.Map.Message;
-import ReplicaManagerOne.Map.MessageComparator;
 
 
-public class McgillServer {
-	public static PriorityQueue<Message> pq = new PriorityQueue<Message>(20, new MessageComparator()); 
+public class McgillServer { 
 	public static McgillClass mcgObjecct;
-	public static int nextSequence = 1;
-	public static int RMNo = 1;
+	public static int RMNo = 12;
 	public static void main(String args[])
 	{
 		try {
@@ -34,7 +27,7 @@ public class McgillServer {
 			
 
 			Runnable task2 = () -> {
-				receiveFromSequencer(pq);
+				receiveFromSequencer();
 			};
 			Thread thread2 = new Thread(task2);
 			thread2.start();
@@ -115,37 +108,20 @@ public class McgillServer {
 	}
 	
 
-	private static void receiveFromSequencer(PriorityQueue<Message> pq) {
-		MulticastSocket aSocket = null;
+	private static void receiveFromSequencer() {
+		DatagramSocket aSocket = null;
 		try {
-
-			aSocket = new MulticastSocket(1410);
-
-			aSocket.joinGroup(InetAddress.getByName("230.1.1.10"));
-
+			aSocket = new DatagramSocket(7779);
 			byte[] buffer = new byte[1000];
-			System.out.println("MC Gill UDP Server 1410 Started............");
-
+			System.out.println("Sequencer UDP Server 7779 Started............");
 			while (true) {
 				DatagramPacket request = new DatagramPacket(buffer, buffer.length);
 				aSocket.receive(request);
-
 				String sentence = new String( request.getData(), 0,
 						request.getLength() );
-				String[] parts = sentence.split(";");
-				//				String function = parts[0]; 
-				//				String userID = parts[1]; 
-				//				String itemName = parts[2]; 
-				//				String itemId = parts[3]; 
-				//				String newItemId = parts[4];
-				//				int number = Integer.parseInt(parts[6]);
-				int sequencerId = Integer.parseInt(parts[6]);
-				Message message = new Message(sentence,sequencerId);
-				pq.add(message);
-				findNextMessage();
-				DatagramPacket reply = new DatagramPacket(request.getData(), request.getLength(), request.getAddress(),
-						request.getPort());
-				aSocket.send(reply);
+				if(!sentence.equals("Test")) {
+					findNextMessage(sentence);
+				}
 			}
 
 		} catch (SocketException e) {
@@ -158,13 +134,8 @@ public class McgillServer {
 		}
 	}
 
-	public static void findNextMessage() {
-		Iterator<Message> itr = pq.iterator(); 
-		while (itr.hasNext()) {
-			Message request = itr.next();
-			if(request.getsequenceId()==nextSequence) {
-				nextSequence = pq.poll().getsequenceId()+1;
-				String message = request.getMessage();
+	public static void findNextMessage(String sentence) {
+				String message = sentence;
 				String[] parts = message.split(";");
 				String function = parts[0]; 
 				String userID = parts[1]; 
@@ -197,12 +168,9 @@ public class McgillServer {
 					boolean result = mcgObjecct.exchangeItem(userID,newItemId,itemId);
 					sendingResult = Boolean.toString(result);
 				}
-				sendingResult= sendingResult+"|"+RMNo+"|"+message+"|";
-				
-				sendMessageBackToFrontend(sendingResult);
-				
-			}
-		} 			 
+
+				sendingResult= sendingResult+":"+RMNo+":"+message+":";
+				sendMessageBackToFrontend(sendingResult);			 
 	}
 	
 	public static void sendMessageBackToFrontend(String message) {

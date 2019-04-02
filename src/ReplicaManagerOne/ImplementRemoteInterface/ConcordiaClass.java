@@ -29,7 +29,7 @@ public class ConcordiaClass{
 	private int mcgillServerPort = 7777;
 	private int montrealServerPort = 6666;
 	private String libraryPrifix = "con";
-
+	public boolean fault =true;
 	public ConcordiaClass() throws Exception{
 		super();
 		Map<String, Item> itemsMap = new HashMap<>();
@@ -154,6 +154,9 @@ public class ConcordiaClass{
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+		}
+		if(fault){
+			return "Wrong Result";
 		}
 		return itemsMaps.toString();
 

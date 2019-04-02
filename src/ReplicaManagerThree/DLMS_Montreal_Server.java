@@ -10,10 +10,8 @@ import java.net.*;
 
 public class DLMS_Montreal_Server
 {
-	public static PriorityQueue<Message> pq = new PriorityQueue<Message>(20, new MessageComparator()); 
 	public static DLMS_Montreal_Implementation monObjecct;
-	public static int nextSequence = 1;
-	public static int RMNo = 3;
+	public static int RMNo = 33;
 	public static void main(String args[]) throws ExportException
 	{
 		
@@ -41,7 +39,7 @@ public class DLMS_Montreal_Server
 			thread.start();
 			
 			Runnable task2 = () -> {
-				receiveFromSequencer(pq);
+				receiveFromSequencer();
 			};
 			Thread thread2 = new Thread(task2);
 			thread2.start();
@@ -113,37 +111,22 @@ public class DLMS_Montreal_Server
         }
     }
     
-	private static void receiveFromSequencer(PriorityQueue<Message> pq) {
-		MulticastSocket aSocket = null;
+    private static void receiveFromSequencer() {
+		DatagramSocket aSocket = null;
 		try {
-
-			aSocket = new MulticastSocket(1411);
-
-			aSocket.joinGroup(InetAddress.getByName("230.1.1.10"));
-
+			aSocket = new DatagramSocket(6664);
 			byte[] buffer = new byte[1000];
-			System.out.println("MC Gill UDP Server 1410 Started............");
-
+			System.out.println("Sequencer UDP Server 6664 Started............");
 			while (true) {
 				DatagramPacket request = new DatagramPacket(buffer, buffer.length);
 				aSocket.receive(request);
-
 				String sentence = new String( request.getData(), 0,
 						request.getLength() );
-				String[] parts = sentence.split(";");
-				//				String function = parts[0]; 
-				//				String userID = parts[1]; 
-				//				String itemName = parts[2]; 
-				//				String itemId = parts[3]; 
-				//				String newItemId = parts[4];
-				//				int number = Integer.parseInt(parts[6]);
-				int sequencerId = Integer.parseInt(parts[6]);
-				Message message = new Message(sentence,sequencerId);
-				pq.add(message);
-				findNextMessage();
-				DatagramPacket reply = new DatagramPacket(request.getData(), request.getLength(), request.getAddress(),
-						request.getPort());
-				aSocket.send(reply);
+				if(!sentence.equals("Test")&&!sentence.equals("fault")) {
+					findNextMessage(sentence);
+				}else if(sentence.equals("fault")) {
+					monObjecct.fault=false;
+				}
 			}
 
 		} catch (SocketException e) {
@@ -156,13 +139,8 @@ public class DLMS_Montreal_Server
 		}
 	}
 
-	public static void findNextMessage() {
-		Iterator<Message> itr = pq.iterator(); 
-		while (itr.hasNext()) {
-			Message request = itr.next();
-			if(request.getsequenceId()==nextSequence) {
-				nextSequence = pq.poll().getsequenceId()+1;
-				String message = request.getMessage();
+	public static void findNextMessage(String sentence) {
+				String message = sentence;
 				String[] parts = message.split(";");
 				String function = parts[0]; 
 				String userID = parts[1]; 
@@ -196,14 +174,12 @@ public class DLMS_Montreal_Server
 					sendingResult = Boolean.toString(result);
 				}
 
-				sendingResult= sendingResult+"|"+RMNo+"|"+message+"|";
-				sendMessageBackToFrontend(sendingResult);
-				
-			}
-		} 			 
+				sendingResult= sendingResult+":"+RMNo+":"+message+":";
+				sendMessageBackToFrontend(sendingResult);			 
 	}
 	
 	public static void sendMessageBackToFrontend(String message) {
+		System.out.println(message);
 		DatagramSocket aSocket = null;
 		try {
 			aSocket = new DatagramSocket();

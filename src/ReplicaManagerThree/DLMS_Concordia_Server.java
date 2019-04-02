@@ -13,10 +13,8 @@ import java.net.*;
 
 public class DLMS_Concordia_Server
 {
-	public static PriorityQueue<Message> pq = new PriorityQueue<Message>(20, new MessageComparator()); 
 	public static DLMS_Concordia_Implementation concordiaObjecct;
-	public static int nextSequence = 1;
-	public static int RMNo = 3;
+	public static int RMNo = 31;
 
 	public static void main(String args[]) throws ExportException
 	{
@@ -45,7 +43,7 @@ public class DLMS_Concordia_Server
 			thread.start();
 			
 			Runnable task2 = () -> {
-				receiveFromSequencer(pq);
+				receiveFromSequencer();
 			};
 			Thread thread2 = new Thread(task2);
 			thread2.start();
@@ -117,37 +115,22 @@ public class DLMS_Concordia_Server
 	
 	//------------------------- Project codes ------------------
 	
-	private static void receiveFromSequencer(PriorityQueue<Message> pq) {
-		MulticastSocket aSocket = null;
+	private static void receiveFromSequencer() {
+		DatagramSocket aSocket = null;
 		try {
-
-			aSocket = new MulticastSocket(1412);
-
-			aSocket.joinGroup(InetAddress.getByName("230.1.1.10"));
-
+			aSocket = new DatagramSocket(8886);
 			byte[] buffer = new byte[1000];
-			System.out.println("Concordia UDP Server 1412 Started............");
-
+			System.out.println("Sequencer UDP Server 8886 Started............");
 			while (true) {
 				DatagramPacket request = new DatagramPacket(buffer, buffer.length);
 				aSocket.receive(request);
-
 				String sentence = new String( request.getData(), 0,
 						request.getLength() );
-				String[] parts = sentence.split(";");
-				//				String function = parts[0]; 
-				//				String userID = parts[1]; 
-				//				String itemName = parts[2]; 
-				//				String itemId = parts[3]; 
-				//				String newItemId = parts[4];
-				//				int number = Integer.parseInt(parts[6]);
-				int sequencerId = Integer.parseInt(parts[6]);
-				Message message = new Message(sentence,sequencerId);
-				pq.add(message);
-				findNextMessage();
-				DatagramPacket reply = new DatagramPacket(request.getData(), request.getLength(), request.getAddress(),
-						request.getPort());
-				aSocket.send(reply);
+				if(!sentence.equals("Test")&&!sentence.equals("fault")) {
+					findNextMessage(sentence);
+				}else if(sentence.equals("fault")) {
+					concordiaObjecct.fault=false;
+				}
 			}
 
 		} catch (SocketException e) {
@@ -160,13 +143,8 @@ public class DLMS_Concordia_Server
 		}
 	}
 
-	public static void findNextMessage() {
-		Iterator<Message> itr = pq.iterator(); 
-		while (itr.hasNext()) {
-			Message request = itr.next();
-			if(request.getsequenceId()==nextSequence) {
-				nextSequence = pq.poll().getsequenceId()+1;
-				String message = request.getMessage();
+	public static void findNextMessage(String sentence) {
+				String message = sentence;
 				String[] parts = message.split(";");
 				String function = parts[0]; 
 				String userID = parts[1]; 
@@ -188,7 +166,7 @@ public class DLMS_Concordia_Server
 					boolean result = concordiaObjecct.borrowItem(userID, itemId,number);
 					sendingResult = Boolean.toString(result);
 				}else if(function.equals("findItem")) {
-					sendingResult = concordiaObjecct.findItem(userID,itemName);					
+					sendingResult = concordiaObjecct.findItem(userID,itemName);
 				}else if(function.equals("returnItem")) {
 					boolean result = concordiaObjecct.returnItem(userID,itemId);
 					sendingResult = Boolean.toString(result);
@@ -200,14 +178,12 @@ public class DLMS_Concordia_Server
 					sendingResult = Boolean.toString(result);
 				}
 
-				sendingResult= sendingResult+"|"+RMNo+"|"+message+"|";
-				sendMessageBackToFrontend(sendingResult);
-				
-			}
-		} 			 
+				sendingResult= sendingResult+":"+RMNo+":"+message+":";
+				sendMessageBackToFrontend(sendingResult);			 
 	}
 	
 	public static void sendMessageBackToFrontend(String message) {
+		System.out.println(message);
 		DatagramSocket aSocket = null;
 		try {
 			aSocket = new DatagramSocket();
@@ -222,5 +198,6 @@ public class DLMS_Concordia_Server
 		}
 		
 	}
+
 
 }

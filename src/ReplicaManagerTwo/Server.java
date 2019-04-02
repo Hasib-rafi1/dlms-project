@@ -20,15 +20,15 @@ public class Server {
             switch (campus) {
                 case "CON":
                     udpPortNum = 2234;
-                    portFromSequencer = 1412;
+                    portFromSequencer = 8887;
                     break;
                 case "MCG":
                     udpPortNum = 2235;
-                    portFromSequencer = 1410;
+                    portFromSequencer = 7776;
                     break;
                 case "MON":
                     udpPortNum = 2236;
-                    portFromSequencer = 1411;
+                    portFromSequencer = 6667;
                     break;
                 default:
                     System.out.println("Server started failed");

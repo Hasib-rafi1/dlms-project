@@ -20,7 +20,7 @@ public class DLMS_Concordia_Implementation
 	private Map<String, Books> bookmapping = new HashMap<>();
 	private Map<String,ArrayList<String>> bookmapping2 = new HashMap<>();
 	private Map<String,ArrayList<String>> bookmapping3 = new HashMap<>();
-
+	public boolean fault=true;
 
 
 	public DLMS_Concordia_Implementation() throws Exception

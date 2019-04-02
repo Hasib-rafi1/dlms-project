@@ -6,25 +6,20 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.MulticastSocket;
 import java.net.SocketException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.Map;
-import java.util.PriorityQueue;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import ReplicaManagerOne.Map.Item;
 
 
 public class ServerImp {
 
-	public static PriorityQueue<Message> pq = new PriorityQueue<Message>(20, new MessageComparator()); 
-	public static int nextSequence = 1;
+	public static boolean fault =true;
 	public static int RMNo = 2;
 	private Lock lock = new ReentrantLock();
 
@@ -80,6 +75,7 @@ public class ServerImp {
 			items.put(i1.ID,i1);
 			items.put(i2.ID,i2);
 			items.put(i3.ID,i3);
+			RMNo = 21;
 		}else if(Campus.equals("MCG")) {
 			Item i1 = new Item();
 			i1.name = "Distributed System";
@@ -96,6 +92,7 @@ public class ServerImp {
 			items.put(i1.ID,i1);
 			items.put(i2.ID,i2);
 			items.put(i3.ID,i3);
+			RMNo = 22;
 		}else if(Campus.equals("MON")) {
 			Item i1 = new Item();
 			i1.name = "Distributed System";
@@ -112,6 +109,7 @@ public class ServerImp {
 			items.put(i1.ID,i1);
 			items.put(i2.ID,i2);
 			items.put(i3.ID,i3);
+			RMNo = 23;
 		}else {
 			Item i1 = new Item();
 			i1.name = "a";
@@ -126,7 +124,7 @@ public class ServerImp {
 		}
 
 		Runnable task2 = () -> {
-			receiveFromSequencer(pq);
+			receiveFromSequencer();
 		};
 		Thread thread2 = new Thread(task2);
 		thread2.start();
@@ -844,38 +842,22 @@ public class ServerImp {
 		return users;
 	}
 
-
-	private  void receiveFromSequencer(PriorityQueue<Message> pq) {
-		MulticastSocket aSocket = null;
+	private  void receiveFromSequencer() {
+		DatagramSocket aSocket = null;
 		try {
-
-			aSocket = new MulticastSocket(portUdp);
-
-			aSocket.joinGroup(InetAddress.getByName("230.1.1.10"));
-
+			aSocket = new DatagramSocket(portUdp);
 			byte[] buffer = new byte[1000];
-			System.out.println("UDP Server "+portUdp +" Started............");
-
+			System.out.println("Sequencer UDP Server "+portUdp+" Started............");
 			while (true) {
 				DatagramPacket request = new DatagramPacket(buffer, buffer.length);
 				aSocket.receive(request);
-
 				String sentence = new String( request.getData(), 0,
 						request.getLength() );
-				String[] parts = sentence.split(";");
-				//				String function = parts[0]; 
-				//				String userID = parts[1]; 
-				//				String itemName = parts[2]; 
-				//				String itemId = parts[3]; 
-				//				String newItemId = parts[4];
-				//				int number = Integer.parseInt(parts[6]);
-				int sequencerId = Integer.parseInt(parts[6]);
-				Message message = new Message(sentence,sequencerId);
-				pq.add(message);
-				findNextMessage();
-				DatagramPacket reply = new DatagramPacket(request.getData(), request.getLength(), request.getAddress(),
-						request.getPort());
-				aSocket.send(reply);
+				if(!sentence.equals("Test")&&!sentence.equals("fault")) {
+					findNextMessage(sentence);
+				}else if(sentence.equals("fault")) {
+					fault=false;
+				}
 			}
 
 		} catch (SocketException e) {
@@ -888,13 +870,8 @@ public class ServerImp {
 		}
 	}
 
-	public void findNextMessage() {
-		Iterator<Message> itr = pq.iterator(); 
-		while (itr.hasNext()) {
-			Message request = itr.next();
-			if(request.getsequenceId()==nextSequence) {
-				nextSequence = pq.poll().getsequenceId()+1;
-				String message = request.getMessage();
+	public  void findNextMessage(String sentence) {
+				String message = sentence;
 				String[] parts = message.split(";");
 				String function = parts[0]; 
 				String userID = parts[1]; 
@@ -928,14 +905,12 @@ public class ServerImp {
 					sendingResult = Boolean.toString(result);
 				}
 
-				sendingResult= sendingResult+"|"+RMNo+"|"+message+"|";
-				sendMessageBackToFrontend(sendingResult);
-
-			}
-		} 			 
+				sendingResult= sendingResult+":"+RMNo+":"+message+":";
+				sendMessageBackToFrontend(sendingResult);			 
 	}
-
-	public static void sendMessageBackToFrontend(String message) {
+	
+	public  void sendMessageBackToFrontend(String message) {
+		System.out.println(message);
 		DatagramSocket aSocket = null;
 		try {
 			aSocket = new DatagramSocket();
@@ -948,6 +923,6 @@ public class ServerImp {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
+		
 	}
 }

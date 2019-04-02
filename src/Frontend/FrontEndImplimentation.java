@@ -4,9 +4,9 @@ import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
-import java.net.MulticastSocket;
 import java.net.SocketException;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 import org.omg.CORBA.ORB;
 
@@ -14,103 +14,93 @@ import ServerObjectInterfaceApp.ServerObjectInterfacePOA;
 
 public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 	private ORB orb;
+	private ArrayList<MessageInfo> responses = new ArrayList<MessageInfo>();
 
 	public void setORB(ORB orb_val) {
 		orb = orb_val;
 	}
 	public String addItem(String managerId, String itemID, String itemName, int quantity){
-		ArrayList<String> message = new ArrayList();
 		sendMessage("addItem", managerId, itemName, itemID, null ,quantity);
-		
-//		while(true) {
-//			if(message.size()==3) {
-//				break;
-//			}
-//		}
-		return "Message";
+
+		waitForResponse();
+		String response =findMessages("addItem", managerId, itemName, itemID, null ,quantity);
+
+		//boolean finalMessages = Boolean.parseBoolean(response);	
+		return response;
 	}
 
 	public String removeItem(String managerID, String itemID, int quantity){
-		ArrayList<String> message = new ArrayList();
 		sendMessage("removeItem", managerID, null, itemID, null ,quantity);
-		
-//		while(true) {
-//			if(message.size()==3) {
-//				break;
-//			}
-//		}
-		return "Book is removed";
+
+		waitForResponse();
+		String response =findMessages("removeItem", managerID, null, itemID, null ,quantity);
+
+		//boolean finalMessages = Boolean.parseBoolean(response);
+		return response;
 	}
 
 	public String listItemAvailability(String managerID) {
-		ArrayList<String> message = new ArrayList();
 		sendMessage("listItemAvailability", managerID, null, null, null ,0);
-		
-//		while(true) {
-//			if(message.size()==3) {
-//				break;
-//			}
-//		}
-		return "";
+
+		waitForResponse();
+		String response =findMessages("listItemAvailability", managerID, null, null, null ,0);
+
+		//boolean finalMessages = Boolean.parseBoolean(response);
+		return response;
 	}
 
 	public boolean borrowItem(String userID,String itemID,int numberOfDay) {
-		ArrayList<String> message = new ArrayList();
 		sendMessage("borrowItem", userID, null, itemID, null ,numberOfDay);
-		
-//		while(true) {
-//			if(message.size()==3) {
-//				break;
-//			}
-//		}
-		return true;
+
+
+		waitForResponse();
+		String response =findMessages("borrowItem", userID, null, itemID, null ,numberOfDay);
+
+		boolean finalMessages = Boolean.parseBoolean(response);
+		return finalMessages;
 	}
 
 	public String findItem(String userID, String itemName) {
-		ArrayList<String> message = new ArrayList();
 		sendMessage("findItem", userID, itemName, null, null ,0);
-		
-//		while(true) {
-//			if(message.size()==3) {
-//				break;
-//			}
-//		}
-		return "";
+
+
+		waitForResponse();
+		String response =findMessages("findItem", userID, itemName, null, null ,0);
+
+		//boolean finalMessages = Boolean.parseBoolean(response);
+		return response;
 	}
 
 	public boolean returnItem(String userID, String itemID) {
-		ArrayList<String> message = new ArrayList();
 		sendMessage("returnItem", userID, null, itemID, null ,0);
-		
-//		while(true) {
-//			if(message.size()==3) {
-//				break;
-//			}
-//		}
-		return true;
+
+
+		waitForResponse();
+		String response =findMessages("returnItem", userID, null, itemID, null ,0);
+
+		boolean finalMessages = Boolean.parseBoolean(response);
+		return finalMessages;
 	}
 	public boolean waitInQueue(String userID,String itemID) {
-		ArrayList<String> message = new ArrayList();
 		sendMessage("waitInQueue", userID, null, itemID, null ,0);
-		
-//		while(true) {
-//			if(message.size()==3) {
-//				break;
-//			}
-//		}
-		return true;
+
+
+		waitForResponse();
+		String response =findMessages("waitInQueue", userID, null, itemID, null ,0);
+
+		boolean finalMessages = Boolean.parseBoolean(response);
+		return finalMessages;
 	}
 
 	public boolean exchangeItem(String userID,String newItemID,String oldItemID){
-		ArrayList<String> message = new ArrayList();
 		sendMessage("exchangeItem", userID, null, oldItemID, newItemID ,0);
-		
-//		while(true) {
-//			if(message.size()==3) {
-//				break;
-//			}
-//		}
-		return true;
+
+
+		waitForResponse();
+		String response =findMessages("exchangeItem", userID, null, oldItemID, newItemID ,0);
+
+		boolean finalMessages = Boolean.parseBoolean(response);
+		return finalMessages;
 	}
 
 	public void sendMessage(String function,String userID,String itemName, String itemId, String newItem, int number) {
@@ -133,8 +123,107 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 		}
 
 	}
+
+	public void waitForResponse(){
+
+		try {
+			Thread.sleep(10000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public void addMessage(MessageInfo messageinfo) {
+		responses.add(messageinfo);
+	}
+
+	public ArrayList<MessageInfo> getResponses() {
+		return responses;
+	}
+	public String findMessages(String function,String userID,String itemName, String itemId, String newItem, int number) {
+		ArrayList<MessageInfo> finalMessages = new ArrayList<MessageInfo>();
+		String message = "false";
+		Iterator<MessageInfo> itr = responses.iterator(); 
+		while (itr.hasNext()) {
+			MessageInfo request = itr.next();
+			if(request.getFunction().equals(function) && request.getUserID().equals(userID)) {
+				finalMessages.add(request);
+			}
+		}
+		if(finalMessages.size()==3) {
+			if(finalMessages.get(0).getResponse().equals(finalMessages.get(1).getResponse()) && finalMessages.get(0).getResponse().equals(finalMessages.get(2).getResponse()) && finalMessages.get(1).getResponse().equals(finalMessages.get(2).getResponse())) {
+				message = finalMessages.get(0).getResponse();
+				sendFaultMessage(finalMessages.get(0).getRMNo()+";rfault");
+				sendFaultMessage(finalMessages.get(1).getRMNo()+";rfault");
+				sendFaultMessage(finalMessages.get(2).getRMNo()+";rfault");
+			}else if(finalMessages.get(0).getResponse().equals(finalMessages.get(1).getResponse())) {
+				message = finalMessages.get(0).getResponse();
+				sendFaultMessage(finalMessages.get(0).getRMNo()+";rfault");
+				sendFaultMessage(finalMessages.get(1).getRMNo()+";rfault");
+				sendFaultMessage(finalMessages.get(2).getRMNo()+";fault");
+			}else if(finalMessages.get(0).getResponse().equals(finalMessages.get(2).getResponse())){
+				message = finalMessages.get(0).getResponse();
+				sendFaultMessage(finalMessages.get(0).getRMNo()+";rfault");
+				sendFaultMessage(finalMessages.get(2).getRMNo()+";rfault");
+				sendFaultMessage(finalMessages.get(1).getRMNo()+";fault");
+			}else {
+				message = finalMessages.get(1).getResponse();
+				sendFaultMessage(finalMessages.get(0).getRMNo()+";fault");
+				sendFaultMessage(finalMessages.get(1).getRMNo()+";rfault");
+				sendFaultMessage(finalMessages.get(2).getRMNo()+";rfault");
+			}
+			
+		}else if(finalMessages.size()==2){
+			if(finalMessages.get(0).getResponse().equals(finalMessages.get(1).getResponse())){
+				String campus = finalMessages.get(0).getUserID().substring(0, Math.min(userID.length(), 3)).toLowerCase();
+				message = finalMessages.get(1).getResponse();
+				if(campus.equals("con")) {
+					if((finalMessages.get(0).getRMNo()==11 || finalMessages.get(0).getRMNo()==21) && (finalMessages.get(1).getRMNo()==11 || finalMessages.get(1).getRMNo()==21)) {
+						sendFaultMessage(31+";crush");
+					}else if((finalMessages.get(0).getRMNo()==11 || finalMessages.get(0).getRMNo()==31) && (finalMessages.get(1).getRMNo()==11 || finalMessages.get(1).getRMNo()==31)) {
+						sendFaultMessage(21+";crush");
+					}else if((finalMessages.get(0).getRMNo()==21 || finalMessages.get(0).getRMNo()==31) && (finalMessages.get(1).getRMNo()==21 || finalMessages.get(1).getRMNo()==31)) {
+						sendFaultMessage(11+";crush");
+					}
+				}else if(campus.equals("mcg")) {
+					if((finalMessages.get(0).getRMNo()==12 || finalMessages.get(0).getRMNo()==22) && (finalMessages.get(1).getRMNo()==12 || finalMessages.get(1).getRMNo()==22)) {
+						sendFaultMessage(32+";crush");
+					}else if((finalMessages.get(0).getRMNo()==12 || finalMessages.get(0).getRMNo()==32) && (finalMessages.get(1).getRMNo()==12 || finalMessages.get(1).getRMNo()==32)) {
+						sendFaultMessage(22+";crush");
+					}else if((finalMessages.get(0).getRMNo()==22 || finalMessages.get(0).getRMNo()==32) && (finalMessages.get(1).getRMNo()==22 || finalMessages.get(1).getRMNo()==32)) {
+						sendFaultMessage(12+";crush");
+					}
+					
+				}else if(campus.equals("mon")) {
+					if((finalMessages.get(0).getRMNo()==13 || finalMessages.get(0).getRMNo()==23) && (finalMessages.get(1).getRMNo()==13 || finalMessages.get(1).getRMNo()==23)) {
+						sendFaultMessage(33+";crush");
+					}else if((finalMessages.get(0).getRMNo()==13 || finalMessages.get(0).getRMNo()==33) && (finalMessages.get(1).getRMNo()==13 || finalMessages.get(1).getRMNo()==33)) {
+						sendFaultMessage(23+";crush");
+					}else if((finalMessages.get(0).getRMNo()==23 || finalMessages.get(0).getRMNo()==33) && (finalMessages.get(1).getRMNo()==13 || finalMessages.get(1).getRMNo()==33)) {
+						sendFaultMessage(13+";crush");
+					}
+				}
+			}
+		}
+		return message;
+	}
 	
-	
+	public static void sendFaultMessage(String message) {
+		DatagramSocket aSocket = null;
+		try {
+			aSocket = new DatagramSocket();
+			byte[] messages = message.getBytes();
+			InetAddress aHost = InetAddress.getByName("230.1.1.10");
+
+			DatagramPacket request = new DatagramPacket(messages, messages.length, aHost, 1412);
+			aSocket.send(request);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
+	}
+
 	// implement shutdown() method
 	public void shutdown() {
 		orb.shutdown(false);

@@ -83,6 +83,32 @@ public class Frontend {
 				String sentence = new String( request.getData(), 0,
 						request.getLength() );
 				System.out.println(sentence);
+				String[] parts = sentence.split(":");
+				if(parts.length>2) {
+					MessageInfo messageInfo = new MessageInfo();
+					messageInfo.setResponse(parts[0]);
+					messageInfo.setRMNo(Integer.parseInt(parts[1]));
+					String[] partsTwo = parts[2].split(";");
+					messageInfo.setMessage(parts[2]);
+					messageInfo.setFunction(partsTwo[0]);
+					messageInfo.setUserID(partsTwo[1]);
+					if(partsTwo[2].equals("null")) {
+						partsTwo[2] = null;
+					}
+					messageInfo.setItemName(partsTwo[2]);
+					if(partsTwo[3].equals("null")) {
+						partsTwo[3] = null;
+					}
+					messageInfo.setItemId(partsTwo[3]);
+					if(partsTwo[4].equals("null")) {
+						partsTwo[4] = null;
+					}
+					messageInfo.setNewItem(partsTwo[4]);
+					
+					messageInfo.setNumber(Integer.parseInt(partsTwo[5]));
+					messageInfo.setSequenceId(Integer.parseInt(partsTwo[6]));
+					obj.addMessage(messageInfo);
+				}
 				DatagramPacket reply = new DatagramPacket(request.getData(), request.getLength(), request.getAddress(),
 						request.getPort());
 				aSocket.send(reply);
