@@ -375,7 +375,8 @@ public class DLMS_Concordia_Implementation
 			DatagramPacket ConReceivePacket = new DatagramPacket(receiveData, receiveData.length);
 			ConcordiaSocket.receive(ConReceivePacket);
 			con_message = new String(ConReceivePacket.getData());
-
+			String[] parts = con_message.split(":");
+			con_message = parts[0];
 			//McGhill Server
 			DatagramPacket McgSendPacket = new DatagramPacket(sendData, con_client_msg.length(), ServerAddress, 9877);
 			ConcordiaSocket.send(McgSendPacket);
@@ -383,7 +384,8 @@ public class DLMS_Concordia_Implementation
 			DatagramPacket McgReceivePacket = new DatagramPacket(receiveData, receiveData.length);
 			ConcordiaSocket.receive(McgReceivePacket);
 			mcg_message = new String(McgReceivePacket.getData());
-
+			String[] mcg_parts = mcg_message.split(":");
+			mcg_message = mcg_parts[0];
 			//Montreal Server
 			DatagramPacket MonSendPacket = new DatagramPacket(sendData, con_client_msg.length(), ServerAddress, 9878);
 			ConcordiaSocket.send(MonSendPacket);
@@ -391,8 +393,11 @@ public class DLMS_Concordia_Implementation
 			DatagramPacket MonReceivePacket = new DatagramPacket(receiveData, receiveData.length);
 			ConcordiaSocket.receive(MonReceivePacket);
 			mon_message = new String(MonReceivePacket.getData());
+			String[] mon_parts = mon_message.split(":");
+			mon_message = mon_parts[0];
 			
 			message = "Concordia "+con_message+" Montreal "+mon_message+" McGill "+mcg_message;
+			System.out.println(message);
 			ConcordiaSocket.close();
 		}
 		catch (Exception e)
@@ -728,7 +733,8 @@ public class DLMS_Concordia_Implementation
 
 			newItemCheck = message;
 		}
-
+		System.out.println(oldItemCheck);
+		System.out.println(newItemCheck);
 		if(oldItemCheck && newItemCheck)
 		{
 			returnItem(userid,oldItem);
@@ -757,26 +763,28 @@ public class DLMS_Concordia_Implementation
 					arraylist = bookmapping2.get(userid);
 					if(!arraylist.contains(bookid))
 					{
-						concordiaCheck = "True:";
+						concordiaCheck = "True";
 					}
 					else
 					{
 						concordiaCheck = "False";
 					}
+				}else {
+					concordiaCheck = "True";
 				}
 			}
 			else
 			{
 				if (!bookmapping2.containsKey(userid))
 				{
-					concordiaCheck = "True:";
+					concordiaCheck = "True";
 				}
 				else if(bookmapping2.containsKey(userid))
 				{
 					arraylist = bookmapping2.get(userid);
 					if(!arraylist.contains(bookid))
 					{
-						concordiaCheck = "True:";
+						concordiaCheck = "True";
 					}
 					else
 					{
@@ -791,7 +799,7 @@ public class DLMS_Concordia_Implementation
 		}
 		else
 		{
-			concordiaCheck = "False:";
+			concordiaCheck = "False";
 		}
 		return concordiaCheck;
 	}
@@ -806,7 +814,7 @@ public class DLMS_Concordia_Implementation
 				arraylist = bookmapping2.get(userid);
 				if(arraylist.contains(bookid))
 				{
-					concordiaCheck = "True:";
+					concordiaCheck = "True";
 				}
 				else
 				{
@@ -820,7 +828,7 @@ public class DLMS_Concordia_Implementation
 		}
 		else
 		{
-			concordiaCheck = "False:";
+			concordiaCheck = "False";
 		}
 		return concordiaCheck;
 	}

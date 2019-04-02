@@ -97,21 +97,21 @@ public class RmTwo {
 	}
 	
 	public static void rfaultHandle(String message) {
-		if(message.equals("11")) {
+		if(message.equals("21")) {
 			con_fault=0;
-		}else if (message.equals("12")) {
+		}else if (message.equals("22")) {
 			mcg_fault=0;
-		}else if (message.equals("13")) {
+		}else if (message.equals("23")) {
 			mon_fault=0;
 		}
 	}
 	
 	public static void faultHandle(String message) {
-		if(message.equals("11")) {
+		if(message.equals("21")) {
 			con_fault++;
-		}else if (message.equals("12")) {
+		}else if (message.equals("22")) {
 			mcg_fault++;
-		}else if (message.equals("13")) {
+		}else if (message.equals("23")) {
 			mon_fault++;
 		}
 		if(con_fault>2) {

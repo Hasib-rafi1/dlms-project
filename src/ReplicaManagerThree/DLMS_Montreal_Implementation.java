@@ -363,6 +363,8 @@ public class DLMS_Montreal_Implementation
 			DatagramPacket ConReceivePacket = new DatagramPacket(receiveData, receiveData.length);
 			MontrealSocket.receive(ConReceivePacket);
 			con_message = new String(ConReceivePacket.getData());
+			String[] parts = con_message.split(":");
+			con_message = parts[0];
 
 			//McGhill Server
 			DatagramPacket McgSendPacket = new DatagramPacket(sendData, mon_client_msg.length(), ServerAddress, 9877);
@@ -371,7 +373,8 @@ public class DLMS_Montreal_Implementation
 			DatagramPacket McgReceivePacket = new DatagramPacket(receiveData, receiveData.length);
 			MontrealSocket.receive(McgReceivePacket);
 			mcg_message = new String(McgReceivePacket.getData());
-
+			String[] mcg_parts = mcg_message.split(":");
+			mcg_message = mcg_parts[0];
 			//Montreal Server
 			DatagramPacket MonSendPacket = new DatagramPacket(sendData, mon_client_msg.length(), ServerAddress, 9878);
 			MontrealSocket.send(MonSendPacket);
@@ -379,7 +382,8 @@ public class DLMS_Montreal_Implementation
 			DatagramPacket MonReceivePacket = new DatagramPacket(receiveData, receiveData.length);
 			MontrealSocket.receive(MonReceivePacket);
 			mon_message = new String(MonReceivePacket.getData());
-
+			String[] mon_parts = mon_message.split(":");
+			mon_message = mon_parts[0];
 			message = "Concordia "+con_message+" Montreal "+mon_message+" McGill "+mcg_message;
 			MontrealSocket.close();
 		}
@@ -734,26 +738,29 @@ public class DLMS_Montreal_Implementation
 					arraylist = bookmapping2.get(userid);
 					if(!arraylist.contains(bookid))
 					{
-						montrealCheck = "True:";
+						montrealCheck = "True";
 					}
 					else
 					{
 						montrealCheck = "False";
 					}
+				}else
+				{
+					montrealCheck = "True";
 				}
 			}
 			else
 			{
 				if (!bookmapping2.containsKey(userid))
 				{
-					montrealCheck = "True:";
+					montrealCheck = "True";
 				}
 				else if(bookmapping2.containsKey(userid))
 				{
 					arraylist = bookmapping2.get(userid);
 					if(!arraylist.contains(bookid))
 					{
-						montrealCheck = "True:";
+						montrealCheck = "True";
 					}
 					else
 					{
@@ -768,7 +775,7 @@ public class DLMS_Montreal_Implementation
 		}
 		else
 		{
-			montrealCheck = "False:";
+			montrealCheck = "False";
 		}
 		return montrealCheck;
 	}
@@ -783,7 +790,7 @@ public class DLMS_Montreal_Implementation
 				arraylist = bookmapping2.get(userid);
 				if(arraylist.contains(bookid))
 				{
-					montrealCheck = "True:";
+					montrealCheck = "True";
 				}
 				else
 				{
@@ -797,7 +804,7 @@ public class DLMS_Montreal_Implementation
 		}
 		else
 		{
-			montrealCheck = "False:";
+			montrealCheck = "False";
 		}
 		return montrealCheck;
 	}

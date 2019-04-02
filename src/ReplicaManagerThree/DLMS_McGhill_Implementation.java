@@ -376,7 +376,8 @@ public class DLMS_McGhill_Implementation
 			DatagramPacket ConReceivePacket = new DatagramPacket(receiveData, receiveData.length);
 			McghillSocket.receive(ConReceivePacket);
 			con_message = new String(ConReceivePacket.getData());
-
+			String[] parts = con_message.split(":");
+			con_message = parts[0];
 			//McGhill Server
 			DatagramPacket McgSendPacket = new DatagramPacket(sendData, mcg_client_msg.length(), ServerAddress, 9877);
 			McghillSocket.send(McgSendPacket);
@@ -384,7 +385,8 @@ public class DLMS_McGhill_Implementation
 			DatagramPacket McgReceivePacket = new DatagramPacket(receiveData, receiveData.length);
 			McghillSocket.receive(McgReceivePacket);
 			mcg_message = new String(McgReceivePacket.getData());
-
+			String[] mcg_parts = mcg_message.split(":");
+			mcg_message = mcg_parts[0];
 			//Montreal Server
 			DatagramPacket MonSendPacket = new DatagramPacket(sendData, mcg_client_msg.length(), ServerAddress, 9878);
 			McghillSocket.send(MonSendPacket);
@@ -392,7 +394,8 @@ public class DLMS_McGhill_Implementation
 			DatagramPacket MonReceivePacket = new DatagramPacket(receiveData, receiveData.length);
 			McghillSocket.receive(MonReceivePacket);
 			mon_message = new String(MonReceivePacket.getData());
-
+			String[] mon_parts = mon_message.split(":");
+			mon_message = mon_parts[0];
 			message = "Concordia "+con_message+" Montreal "+mon_message+" McGill "+mcg_message;
 			McghillSocket.close();
 		}
@@ -754,26 +757,28 @@ public class DLMS_McGhill_Implementation
 					arraylist = bookmapping2.get(userid);
 					if(!arraylist.contains(bookid))
 					{
-						mcghillCheck = "True:";
+						mcghillCheck = "True";
 					}
 					else
 					{
 						mcghillCheck = "False";
 					}
+				}else {
+					mcghillCheck = "True";
 				}
 			}
 			else
 			{
 				if (!bookmapping2.containsKey(userid))
 				{
-					mcghillCheck = "True:";
+					mcghillCheck = "True";
 				}
 				else if(bookmapping2.containsKey(userid))
 				{
 					arraylist = bookmapping2.get(userid);
 					if(!arraylist.contains(bookid))
 					{
-						mcghillCheck = "True:";
+						mcghillCheck = "True";
 					}
 					else
 					{
@@ -788,7 +793,7 @@ public class DLMS_McGhill_Implementation
 		}
 		else
 		{
-			mcghillCheck = "False:";
+			mcghillCheck = "False";
 		}
 		return mcghillCheck;
 	}
@@ -803,7 +808,7 @@ public class DLMS_McGhill_Implementation
 				arraylist = bookmapping2.get(userid);
 				if(arraylist.contains(bookid))
 				{
-					mcghillCheck = "True:";
+					mcghillCheck = "True";
 				}
 				else
 				{
@@ -817,7 +822,7 @@ public class DLMS_McGhill_Implementation
 		}
 		else
 		{
-			mcghillCheck = "False:";
+			mcghillCheck = "False";
 		}
 		return mcghillCheck;
 	}

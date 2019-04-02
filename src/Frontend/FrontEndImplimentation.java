@@ -150,6 +150,7 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 			if(request.getFunction().equals(function) && request.getUserID().equals(userID)) {
 				finalMessages.add(request);
 			}
+			itr.remove();
 		}
 		if(finalMessages.size()==3) {
 			if(finalMessages.get(0).getResponse().equals(finalMessages.get(1).getResponse()) && finalMessages.get(0).getResponse().equals(finalMessages.get(2).getResponse()) && finalMessages.get(1).getResponse().equals(finalMessages.get(2).getResponse())) {

@@ -97,21 +97,21 @@ public class RmThree {
 	}
 	
 	public static void rfaultHandle(String message) {
-		if(message.equals("11")) {
+		if(message.equals("31")) {
 			con_fault=0;
-		}else if (message.equals("12")) {
+		}else if (message.equals("32")) {
 			mcg_fault=0;
-		}else if (message.equals("13")) {
+		}else if (message.equals("33")) {
 			mon_fault=0;
 		}
 	}
 	
 	public static void faultHandle(String message) {
-		if(message.equals("11")) {
+		if(message.equals("31")) {
 			con_fault++;
-		}else if (message.equals("12")) {
+		}else if (message.equals("32")) {
 			mcg_fault++;
-		}else if (message.equals("13")) {
+		}else if (message.equals("33")) {
 			mon_fault++;
 		}
 		if(con_fault>2) {
@@ -124,21 +124,21 @@ public class RmThree {
 	}
 	
 	public static void crushhandle(String message){
-		if(message.equals("11")) {
+		if(message.equals("31")) {
 			try {
 				DLMS_Concordia_Server.main(new String[0]);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		}else if (message.equals("12")) {
+		}else if (message.equals("32")) {
 			try {
 				DLMS_McGhill_Server.main(new String[0]);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-		}else if (message.equals("13")) {
+		}else if (message.equals("33")) {
 			try {
 				DLMS_Montreal_Server.main(new String[0]);
 			} catch (Exception e) {

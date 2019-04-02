@@ -124,9 +124,10 @@ public class RmOne {
 	}
 	
 	public static void crushhandle(String message){
+		 Process theProcess = null;
 		if(message.equals("11")) {
 			try {
-				ConcordiaServer.main(new String[0]);
+				theProcess = Runtime.getRuntime().exec("java ConcordiaServer");
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

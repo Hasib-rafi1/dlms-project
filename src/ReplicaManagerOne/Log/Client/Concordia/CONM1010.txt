@@ -1,0 +1,3 @@
+Action: ADD ITEM CON9876 | Resonse: ITEM ADDED: true
+Action: REMOVE ITEM CON9876 | Resonse: ITEM REMOVED: true
+Action: List of Items  | Resonse: {CON1012=Item{itemName='Data Structure', itemQty='5'}, CON1010=Item{itemName='Distributed System', itemQty='9'}, CON1011=Item{itemName='Absoulate Java', itemQty='11'}, CON9876=Item{itemName='RAFI', itemQty='9'}}

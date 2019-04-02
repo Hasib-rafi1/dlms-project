@@ -155,6 +155,9 @@ public class ConcordiaClass{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		if(managerID.equals("CONM0000")) {
+			System.exit(0);
+		}
 		if(fault){
 			return "Wrong Result";
 		}

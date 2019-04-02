@@ -128,7 +128,7 @@ public class ServerImp {
 		};
 		Thread thread2 = new Thread(task2);
 		thread2.start();
-		sendMessageBackToFrontend("Listen from RM1 Concordia");
+		sendMessageBackToFrontend("Listen from RM2 Concordia");
 	}
 
 	private static void Log(String serverID,String Message) throws Exception{
@@ -532,7 +532,7 @@ public class ServerImp {
 			case "CON": {
 				int serverport1 = 2235;
 				int serverport2 = 2236;
-				result = "Concordia "+result + "  Montreal " + UDPRequest.UDPfindItem(command, serverport2);
+				result = "Concordia "+result + " Montreal " + UDPRequest.UDPfindItem(command, serverport2);
 				result = result + " McGill " + UDPRequest.UDPfindItem(command, serverport1);
 				break;
 			}
@@ -773,11 +773,44 @@ public class ServerImp {
 		}else{
 			try {
 				lock.lock();
-				boolean borrowResult = borrowItem(studentID, newItemID, 1);
-				if (borrowResult) {
-					returnItem(studentID, oldItemID);
-					result = borrowResult;
+				if(oldCampus.equals(Campus)){
+					command = "borrowItem(" + studentID + "," + newItemID + "," + String.valueOf(1) + ")";
+					boolean returnResult = returnLocal(oldItemID, studentID);
+					if(returnResult) {
+						if(newCampus.equals("CON")){
+							serverPort = 2234;
+							result = UDPRequest.UDPborrowItem(command, serverPort);
+						}
+						else if(newCampus.equals("MCG")){
+							serverPort = 2235;
+							result = UDPRequest.UDPborrowItem(command, serverPort);
+						}
+						else if(newCampus.equals("MON")){
+							serverPort = 2236;
+							result = UDPRequest.UDPborrowItem(command, serverPort);
+						}
+					}
+				}else {
+					command = "returnItem(" + oldItemID + "," + studentID + ")";
+					boolean returnResult = false;
+						if(oldCampus.equals("CON")){
+							serverPort = 2234;
+							returnResult = UDPRequest.UDPreturnItem(command, serverPort);
+						}
+						else if(oldCampus.equals("MCG")){
+							serverPort = 2235;
+							returnResult = UDPRequest.UDPreturnItem(command, serverPort);
+						}
+						else if(oldCampus.equals("MON")){
+							serverPort = 2236;
+							returnResult = UDPRequest.UDPreturnItem(command, serverPort);
+						}
+						if(returnResult) {
+							result=borrowLocal(studentID,newItemID);
+						}
 				}
+			} catch (Exception e) {
+				e.printStackTrace();
 			}finally {
 				lock.unlock();
 			}
@@ -789,13 +822,11 @@ public class ServerImp {
 		if(borrowedItems.containsKey(oldItemID) && borrowedItems.get(oldItemID).contains(studentID)){
 			try{
 				lock.lock();
-				borrowedItems.get(oldItemID).remove(studentID);
-				boolean borrowResult = borrowLocal(studentID,newItemID);
-				borrowedItems.get(oldItemID).add(studentID);
+				boolean returResult =returnLocal(oldItemID, studentID);
+				
 
-				if(borrowResult) {
-					returnLocal(oldItemID, studentID);
-					result = borrowResult;
+				if(returResult) {
+					result = borrowLocal(studentID,newItemID);;
 					String log = " User [" + studentID + "] exchange with item [" + oldItemID + "] for item [" +
 							newItemID + "] success.";
 					System.out.println(log);

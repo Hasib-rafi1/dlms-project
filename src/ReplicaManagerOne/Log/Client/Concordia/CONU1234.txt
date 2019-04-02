@@ -14,3 +14,18 @@ Action: find an Item: DISTRIBUTED SYSTEM | Resonse: MCG1010=Item{itemName='Distr
 Action: find an Item: DISTRIBUTED SYSTEM | Resonse: MON1010=Item{itemName='Distributed System', itemQty='19'}
 Action: return an Item: MON1010 | Resonse: true
 Action: Borrowed an Item: CON1010 | Resonse: true
+Action: Borrowed an Item: CON1010 | Resonse: true
+Action: Borrowed an Item: CON9876 | Resonse: true
+Action: find an Item: DISTRIBUTED SYSTEM | Resonse: CON1010=Item{itemName='Distributed System', itemQty='9'}
+Action: find an Item: DISTRIBUTED SYSTEM | Resonse: MCG1010=Item{itemName='Distributed System', itemQty='20'}
+Action: find an Item: DISTRIBUTED SYSTEM | Resonse: MON1010=Item{itemName='Distributed System', itemQty='20'}
+Action: find an Item: DISTRIBUTED SYSTEM | Resonse: CON1010=Item{itemName='Distributed System', itemQty='9'}
+Action: find an Item: DISTRIBUTED SYSTEM | Resonse: MCG1010=Item{itemName='Distributed System', itemQty='20'}
+Action: find an Item: DISTRIBUTED SYSTEM | Resonse: MON1010=Item{itemName='Distributed System', itemQty='20'}
+Action: return an Item: CON1010 | Resonse: true
+Action: find an Item: DISTRIBUTED SYSTEM | Resonse: CON1010=Item{itemName='Distributed System', itemQty='10'}
+Action: find an Item: DISTRIBUTED SYSTEM | Resonse: MCG1010=Item{itemName='Distributed System', itemQty='20'}
+Action: find an Item: DISTRIBUTED SYSTEM | Resonse: MON1010=Item{itemName='Distributed System', itemQty='20'}
+Action: Borrowed an Item: MON1010 | Resonse: true
+Action: return an Item: MON1010 | Resonse: true
+Action: Borrowed an Item: CON1010 | Resonse: true
