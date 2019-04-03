@@ -14,7 +14,7 @@ public class Server {
         String campus;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Campus");
-        campus = sc.nextLine();
+        campus = sc.nextLine().toUpperCase();
         ServerImp serverImp = new ServerImp();
         try{
             switch (campus) {
