@@ -127,7 +127,8 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 	public void waitForResponse(){
 
 		try {
-			Thread.sleep(10000);
+            System.out.println("waiting for result...");
+            Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -144,14 +145,18 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 	public String findMessages(String function,String userID,String itemName, String itemId, String newItem, int number) {
 		ArrayList<MessageInfo> finalMessages = new ArrayList<MessageInfo>();
 		String message = "false";
-		Iterator<MessageInfo> itr = responses.iterator(); 
+		Iterator<MessageInfo> itr = responses.iterator();
+        System.out.println("check total response number ");
+        System.out.println("response size "+responses.size());
 		while (itr.hasNext()) {
+            System.out.println("has next ");
 			MessageInfo request = itr.next();
 			if(request.getFunction().equals(function) && request.getUserID().equals(userID)) {
 				finalMessages.add(request);
 			}
 		}
 		if(finalMessages.size()==3) {
+            System.out.println("packet = 3");
 			if(finalMessages.get(0).getResponse().equals(finalMessages.get(1).getResponse()) && finalMessages.get(0).getResponse().equals(finalMessages.get(2).getResponse()) && finalMessages.get(1).getResponse().equals(finalMessages.get(2).getResponse())) {
 				message = finalMessages.get(0).getResponse();
 				sendFaultMessage(finalMessages.get(0).getRMNo()+";rfault");
@@ -175,10 +180,12 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 			}
 			
 		}else if(finalMessages.size()==2){
+            System.out.println("packer = 2");
 			if(finalMessages.get(0).getResponse().equals(finalMessages.get(1).getResponse())){
 				String campus = finalMessages.get(0).getUserID().substring(0, Math.min(userID.length(), 3)).toLowerCase();
 				message = finalMessages.get(1).getResponse();
 				if(campus.equals("con")) {
+                    System.out.println("found conServer crash in fe");
 					if((finalMessages.get(0).getRMNo()==11 || finalMessages.get(0).getRMNo()==21) && (finalMessages.get(1).getRMNo()==11 || finalMessages.get(1).getRMNo()==21)) {
 						sendFaultMessage(31+";crush");
 					}else if((finalMessages.get(0).getRMNo()==11 || finalMessages.get(0).getRMNo()==31) && (finalMessages.get(1).getRMNo()==11 || finalMessages.get(1).getRMNo()==31)) {
@@ -206,6 +213,7 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 				}
 			}
 		}
+		responses.clear();
 		return message;
 	}
 	

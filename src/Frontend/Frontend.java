@@ -108,6 +108,7 @@ public class Frontend {
 					messageInfo.setNumber(Integer.parseInt(partsTwo[5]));
 					messageInfo.setSequenceId(Integer.parseInt(partsTwo[6]));
 					obj.addMessage(messageInfo);
+					System.out.println("add response ");
 				}
 				DatagramPacket reply = new DatagramPacket(request.getData(), request.getLength(), request.getAddress(),
 						request.getPort());
