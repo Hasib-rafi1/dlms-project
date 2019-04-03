@@ -50,6 +50,7 @@ public class RmOne {
 				String[] parts = sentence.split(";");
 				if(parts[1].equals("crush")||parts[1].equals("fault")||parts[1].equals("rfault")) {
 					if(parts[1].equals("crush")) {
+                        System.out.println("receive crash in rmone");
 						crushhandle(parts[0]);
 					}else if(parts[1].equals("rfault")) {
 						rfaultHandle(parts[0]);
@@ -125,26 +126,44 @@ public class RmOne {
 	
 	public static void crushhandle(String message){
 		if(message.equals("11")) {
-			try {
-				ConcordiaServer.main(new String[0]);
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+
+            Runnable task = () -> {
+                try {
+                    ConcordiaServer.main(new String[0]);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            };
+            Thread handleThread = new Thread(task);
+            handleThread.start();
+            System.out.println("handle con server crash!");
+
 		}else if (message.equals("12")) {
-			try {
-				McgillServer.main(new String[0]);
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+
+            Runnable task = () -> {
+                try {
+                    McgillServer.main(new String[0]);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            };
+            Thread handleThread = new Thread(task);
+            handleThread.start();
+            System.out.println("handle con server crash!");
+
 		}else if (message.equals("13")) {
-			try {
-				MontrealServer.main(new String[0]);
-			} catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+
+            Runnable task = () -> {
+                try {
+                    MontrealServer.main(new String[0]);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            };
+            Thread handleThread = new Thread(task);
+            handleThread.start();
+            System.out.println("handle con server crash!");
+
 		}
 	}
 	public static void sendMessage(String userID , String message) {
