@@ -190,4 +190,7 @@ public class McgillServer {
 		
 	}
 
+	public static void shutDown(){
+		System.exit(8);
+	}
 }

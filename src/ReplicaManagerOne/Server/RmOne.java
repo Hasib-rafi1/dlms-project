@@ -129,6 +129,7 @@ public class RmOne {
 
             Runnable task = () -> {
                 try {
+                    ConcordiaServer.shutDown();
                     ConcordiaServer.main(new String[0]);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -142,6 +143,7 @@ public class RmOne {
 
             Runnable task = () -> {
                 try {
+                    McgillServer.shutDown();
                     McgillServer.main(new String[0]);
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -155,6 +157,7 @@ public class RmOne {
 
             Runnable task = () -> {
                 try {
+                    MontrealServer.shutDown();
                     MontrealServer.main(new String[0]);
                 } catch (Exception e) {
                     e.printStackTrace();

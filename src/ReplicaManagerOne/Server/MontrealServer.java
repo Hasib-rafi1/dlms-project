@@ -187,5 +187,7 @@ public class MontrealServer {
 		
 	}
 
-	
+	public static void shutDown(){
+		System.exit(8);
+	}
 }
