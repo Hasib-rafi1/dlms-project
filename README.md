@@ -1,25 +1,44 @@
-# dlms-project
+# DLMS-project
 
-To Run this project you need to run codes
-.
+### Run Codes In This Order
 
-Client/Client.java
-FrontEnd/FrontEnd.java
-Sequencer/Sequencer.java
-ReplicaManagerOne/RmOne.java
-ReplicaManagerOne/ConcordiaServer.java
-ReplicaManagerOne/McGillServer.java
-ReplicaManagerOne/MontrealServer.java
-ReplicaManagerTwo/RmTwo.java
-ReplicaManagerTwo/Server.java (Have to run this server 3 times.With 3 different inputs. input Types "CON","MCG","MON")
-ReplicaManagerThree/RmThree.java
-ReplicaManagerThree/DLMS_Concordia_Server.java
-ReplicaManagerThree/DLMS_McGhill_Server.java
-ReplicaManagerThree/DLMS_Montreal_Server.java
+`ReplicaManagerOne/ConcordiaServer.java`
 
-For Checking Fault replace 
+`ReplicaManagerOne/McGillServer.java`
+
+`ReplicaManagerOne/MontrealServer.java`
+
+`ReplicaManagerOne/RmOne.java`
+
+`ReplicaManagerTwo/Server.java` (Have to run this server 3 times.With 3 different inputs. input Types "CON","MCG","MON")
+
+`ReplicaManagerTwo/RmTwo.java`
+
+`ReplicaManagerThree/DLMS_Concordia_Server.java`
+
+`ReplicaManagerThree/DLMS_McGhill_Server.java`
+
+`ReplicaManagerThree/DLMS_Montreal_Server.java`
+`ReplicaManagerThree/RmThree.java`
+
+`Sequencer/Sequencer.java`
+
+`FrontEnd/FrontEnd.java`
+
+`Client/Client.java`
+
+
+
+
+### For Checking Fault replace 
 Login as Concordia Manager Ex(CONM1111) and execute the List of items by pressing 3 for 4 times (3 times consequtive and in the 4 th time it will give you the correct result). it Will give you the wrong result for 3 times.
 
-For Crash Senario
-Login as Concordia Manager and the userId will be CONM0000. and execute the List of items by pressing 3. It will crush the specific server. 
+### For Crash Senario
+Simulate a process crash by killing that process while the application is running. RM will reboost that replica from next client request.
+
+### TODO:
+* Apply RMOne to RMTwo and RMThree
+* Reset replica datas after reboost ?
+* Replace replica after three consecutive incorrect result
+* Inform RMs after FE time out
 
