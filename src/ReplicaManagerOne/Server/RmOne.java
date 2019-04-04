@@ -6,6 +6,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.net.MulticastSocket;
 import java.net.SocketException;
+import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.PriorityQueue;
 
@@ -15,11 +16,12 @@ import ReplicaManagerOne.Map.MessageComparator;
 public class RmOne {
 	public static int nextSequence = 1;
 	public static PriorityQueue<Message> pq = new PriorityQueue<Message>(20, new MessageComparator()); 
+	public static ArrayList<Message> pq_list = new ArrayList<Message>(); 
 	public static int con_fault = 0; 
 	public static int mcg_fault = 0;
 	public static int mon_fault = 0;
 	public static void main(String[] args) {
-		
+
 		Runnable task = () -> {
 			receive();
 		};
@@ -29,7 +31,7 @@ public class RmOne {
 		sendMessage("MCGM1111", "Test");
 		sendMessage("MONM1111", "Test");
 	}
-	
+
 	private static void receive() {
 		MulticastSocket aSocket = null;
 		try {
@@ -50,7 +52,7 @@ public class RmOne {
 				String[] parts = sentence.split(";");
 				if(parts[1].equals("crush")||parts[1].equals("fault")||parts[1].equals("rfault")) {
 					if(parts[1].equals("crush")) {
-                        System.out.println("receive crash in rmone");
+						System.out.println("receive crash in rmone");
 						crushhandle(parts[0]);
 					}else if(parts[1].equals("rfault")) {
 						rfaultHandle(parts[0]);
@@ -78,7 +80,7 @@ public class RmOne {
 				aSocket.close();
 		}
 	}
-	
+
 	public static void findNextMessage() {
 		Iterator<Message> itr = pq.iterator(); 
 		while (itr.hasNext()) {
@@ -88,15 +90,16 @@ public class RmOne {
 				String message = request.getMessage();
 				String[] parts = message.split(";");
 				String userID = parts[1]; 
-				
+				pq_list.add(request);
+
 				System.out.println(message);
 
 				sendMessage(userID,message);
-				
+
 			}
 		} 			 
 	}
-	
+
 	public static void rfaultHandle(String message) {
 		if(message.equals("11")) {
 			con_fault=0;
@@ -106,7 +109,7 @@ public class RmOne {
 			mon_fault=0;
 		}
 	}
-	
+
 	public static void faultHandle(String message) {
 		if(message.equals("11")) {
 			con_fault++;
@@ -123,53 +126,116 @@ public class RmOne {
 			sendMessage("MONM1111" , "fault");
 		}
 	}
-	
+
 	public static void crushhandle(String message){
-		 Process theProcess = null;
+		Process theProcess = null;
 		if(message.equals("11")) {
 
-            Runnable task = () -> {
-                try {
-                    ConcordiaServer.shutDown();
-                    ConcordiaServer.main(new String[0]);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            };
-            Thread handleThread = new Thread(task);
-            handleThread.start();
-            System.out.println("handle con server crash!");
+			Runnable task = () -> {
+				try {
+					//ConcordiaServer.shutDown();
+					ConcordiaServer.main(new String[0]);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			};
+			Thread handleThread = new Thread(task);
+			handleThread.start();
+			System.out.println("handle con server crash!");
+			redeploy("CON");
 
 		}else if (message.equals("12")) {
 
-            Runnable task = () -> {
-                try {
-                    McgillServer.shutDown();
-                    McgillServer.main(new String[0]);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            };
-            Thread handleThread = new Thread(task);
-            handleThread.start();
-            System.out.println("handle con server crash!");
+			Runnable task = () -> {
+				try {
+					// McgillServer.shutDown();
+					McgillServer.main(new String[0]);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			};
+			Thread handleThread = new Thread(task);
+			handleThread.start();
+			System.out.println("handle MCG server crash!");
+			redeploy("MCG");
 
 		}else if (message.equals("13")) {
 
-            Runnable task = () -> {
-                try {
-                    MontrealServer.shutDown();
-                    MontrealServer.main(new String[0]);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            };
-            Thread handleThread = new Thread(task);
-            handleThread.start();
-            System.out.println("handle con server crash!");
+			Runnable task = () -> {
+				try {
+					// MontrealServer.shutDown();
+					MontrealServer.main(new String[0]);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			};
+			Thread handleThread = new Thread(task);
+			handleThread.start();
+			System.out.println("handle Mon server crash!");
+			redeploy("MON");
 
 		}
 	}
+
+	public static void redeploy(String system) {
+		try {
+            Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		system = system.toLowerCase();
+		Iterator<Message> itr = pq_list.iterator();
+		while (itr.hasNext()) {
+			Message request = itr.next();
+			String message = request.getMessage();
+			String[] parts = message.split(";");
+			String function =parts[0];
+			String userID = parts[1]; 
+			String itemName = parts[2];
+			String itemId =parts[3];
+			String newItem = parts[4]; 
+			String number = parts[5];
+			String sequencer = parts[6];
+			String preUser = userID.substring(0, Math.min(userID.length(), 3)).toLowerCase();
+
+			if(!function.equals("listItemAvailability")||!function.equals("findItem")) {
+				String preItem = itemId.substring(0, Math.min(userID.length(), 3)).toLowerCase();
+				if(function.equals("addItem") && preUser.equals(system)) {
+					String messageSend = function+";"+userID+";"+itemName+";"+itemId+";"+newItem+";"+number+";"+0;
+					sendMessage(system,messageSend);
+				}else if(function.equals("removeItem") && preUser.equals(system)) {
+					String messageSend = function+";"+userID+";"+itemName+";"+itemId+";"+newItem+";"+number+";"+0;
+					sendMessage(system,messageSend);
+				}else if(function.equals("borrowItem") && preItem.equals(system)) {
+					String messageSend = function+";"+userID+";"+itemName+";"+itemId+";"+newItem+";"+number+";"+0;
+					sendMessage(system,messageSend);
+				}else if(function.equals("returnItem") && preItem.equals(system)) {
+					String messageSend = function+";"+userID+";"+itemName+";"+itemId+";"+newItem+";"+number+";"+0;
+					sendMessage(system,messageSend);
+				}else if(function.equals("waitInQueue") && preItem.equals(system)) {
+					String messageSend = function+";"+userID+";"+itemName+";"+itemId+";"+newItem+";"+number+";"+0;
+					sendMessage(system,messageSend);
+				}else if(function.equals("exchangeItem")) {
+					String preNewItem = newItem.substring(0, Math.min(userID.length(), 3)).toLowerCase();
+					if(preItem.equals(system) && preNewItem.equals(system)) {
+						String messageSend = function+";"+userID+";"+itemName+";"+itemId+";"+newItem+";"+number+";"+0;
+						sendMessage(system,messageSend);	
+					}else if(!preItem.equals(system) && preNewItem.equals(system)) {
+						String messageSend = "borrowItem"+";"+userID+";"+itemName+";"+newItem+";"+newItem+";"+number+";"+0;
+						sendMessage(system,messageSend);
+					}else if(preItem.equals(system) && !preNewItem.equals(system)) {
+						String messageSend = "returnItem"+";"+userID+";"+itemName+";"+itemId+";"+newItem+";"+number+";"+0;
+						sendMessage(system,messageSend);
+					}
+
+				}
+			}
+
+		} 	
+	}
+
 	public static void sendMessage(String userID , String message) {
 		String libraryPrefix = userID.substring(0, Math.min(userID.length(), 3)).toLowerCase();
 		int port=8889;

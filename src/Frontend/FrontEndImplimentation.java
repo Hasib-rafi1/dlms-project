@@ -15,7 +15,6 @@ import ServerObjectInterfaceApp.ServerObjectInterfacePOA;
 public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 	private ORB orb;
 	private ArrayList<MessageInfo> responses = new ArrayList<MessageInfo>();
-
 	public void setORB(ORB orb_val) {
 		orb = orb_val;
 	}
@@ -151,10 +150,9 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 		while (itr.hasNext()) {
             System.out.println("has next ");
 			MessageInfo request = itr.next();
-			if(request.getFunction().equals(function) && request.getUserID().equals(userID)) {
+			if(request.getFunction().equals(function) && request.getUserID().equals(userID) && request.getSequenceId()!= 0) {
 				finalMessages.add(request);
 			}
-			itr.remove();
 		}
 		if(finalMessages.size()==3) {
             System.out.println("packet = 3");
@@ -214,7 +212,8 @@ public class FrontEndImplimentation extends ServerObjectInterfacePOA{
 				}
 			}
 		}
-		responses.clear();
+
+		responses.removeAll(finalMessages);
 		return message;
 	}
 	
