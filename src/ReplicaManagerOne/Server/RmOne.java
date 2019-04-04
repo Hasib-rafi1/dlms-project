@@ -127,7 +127,7 @@ public class RmOne {
 		 Process theProcess = null;
 		if(message.equals("11")) {
 			try {
-				theProcess = Runtime.getRuntime().exec("java ConcordiaServer");
+				theProcess = Runtime.getRuntime().exec("java ../Server/ConcordiaServer");
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();

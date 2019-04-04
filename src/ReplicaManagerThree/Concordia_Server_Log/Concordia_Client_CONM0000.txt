@@ -447,3 +447,116 @@
   <thread>12</thread>
   <message>All Books Printed</message>
 </record>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-04-02T16:55:44</date>
+  <millis>1554238544131</millis>
+  <sequence>0</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Date</message>
+</record>
+<record>
+  <date>2019-04-02T16:55:44</date>
+  <millis>1554238544138</millis>
+  <sequence>1</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>02/04/2019 16:55:44</message>
+</record>
+<record>
+  <date>2019-04-02T16:55:44</date>
+  <millis>1554238544139</millis>
+  <sequence>2</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request</message>
+</record>
+<record>
+  <date>2019-04-02T16:55:44</date>
+  <millis>1554238544141</millis>
+  <sequence>3</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-04-02T16:55:44</date>
+  <millis>1554238544142</millis>
+  <sequence>4</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request ID</message>
+</record>
+<record>
+  <date>2019-04-02T16:55:44</date>
+  <millis>1554238544144</millis>
+  <sequence>5</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>CONM0000</message>
+</record>
+<record>
+  <date>2019-04-02T16:55:44</date>
+  <millis>1554238544145</millis>
+  <sequence>6</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Request Item</message>
+</record>
+<record>
+  <date>2019-04-02T16:55:44</date>
+  <millis>1554238544146</millis>
+  <sequence>7</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Listing Available Books.</message>
+</record>
+<record>
+  <date>2019-04-02T16:55:44</date>
+  <millis>1554238544147</millis>
+  <sequence>8</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>Server Response</message>
+</record>
+<record>
+  <date>2019-04-02T16:55:44</date>
+  <millis>1554238544148</millis>
+  <sequence>9</sequence>
+  <logger>ReplicaManagerThree.DLMS_Concordia_Implementation</logger>
+  <level>INFO</level>
+  <class>ReplicaManagerThree.DLMS_Concordia_Implementation</class>
+  <method>serverlog</method>
+  <thread>12</thread>
+  <message>All Books Printed</message>
+</record>
