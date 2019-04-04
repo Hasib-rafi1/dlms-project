@@ -142,6 +142,10 @@ public class ConcordiaServer {
 				String itemId = parts[3]; 
 				String newItemId = parts[4];
 				int number = Integer.parseInt(parts[5]);
+				int s_no = Integer.parseInt(parts[6]);
+				if(s_no==0) {
+					concordiaObjecct.fault=false;
+				}
 				System.out.println(message);
 				String sendingResult ="";
 				if(function.equals("addItem")) {
