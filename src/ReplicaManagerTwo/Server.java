@@ -12,9 +12,13 @@ public class Server {
         int udpPortNum = 0;
         int portFromSequencer=0;
         String campus;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Campus");
-        campus = sc.nextLine().toUpperCase();
+        if(args.length == 0) {
+	        Scanner sc = new Scanner(System.in);
+	        System.out.println("Enter Campus");
+	        campus = sc.nextLine().toUpperCase();
+        }else {
+        	campus = args[0].toUpperCase();
+        }
         ServerImp serverImp = new ServerImp();
         try{
             switch (campus) {

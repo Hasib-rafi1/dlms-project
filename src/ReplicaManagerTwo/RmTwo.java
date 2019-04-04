@@ -131,7 +131,9 @@ public class RmTwo {
 			Runnable task = () -> {
 				try {
 					// McgillServer.shutDown();
-					Server.main(new String[0]);
+					String[] args = new String[1];
+					args[0] = "CON";
+					Server.main(args);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -144,7 +146,9 @@ public class RmTwo {
 			Runnable task = () -> {
 				try {
 					// McgillServer.shutDown();
-					Server.main(new String[0]);
+					String[] args = new String[1];
+					args[0] = "MCG";
+					Server.main(args);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
@@ -157,7 +161,9 @@ public class RmTwo {
 			Runnable task = () -> {
 				try {
 					// MontrealServer.shutDown();
-					Server.main(new String[0]);
+					String[] args = new String[1];
+					args[0] = "MON";
+					Server.main(args);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
