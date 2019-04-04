@@ -1,3 +1,0 @@
-Action: List of Items  | Resonse: {MON1010=Item{itemName='Distributed System', itemQty='19'}, MON1011=Item{itemName='Absoulate Java', itemQty='22'}, MON1012=Item{itemName='Data Structure', itemQty='10'}}
-Action: List of Items  | Resonse: {MON1010=Item{itemName='Distributed System', itemQty='19'}, MON1011=Item{itemName='Absoulate Java', itemQty='22'}, MON1012=Item{itemName='Data Structure', itemQty='10'}}
-Action: List of Items  | Resonse: {MON1010=Item{itemName='Distributed System', itemQty='20'}, MON1011=Item{itemName='Absoulate Java', itemQty='21'}, MON1012=Item{itemName='Data Structure', itemQty='10'}}

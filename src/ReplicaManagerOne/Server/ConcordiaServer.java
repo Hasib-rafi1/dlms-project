@@ -189,4 +189,7 @@ public class ConcordiaServer {
 		
 	}
 
+	public static void shutDown(){
+	    System.exit(8);
+    }
 }
