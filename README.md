@@ -37,9 +37,4 @@ Login as Concordia Manager Ex(CONM1111) and execute the List of items by pressin
 ### For Crash Senario
 Simulate a process crash by killing that process while the application is running. RM will reboost that replica from next client request.
 
-### TODO:
-* Apply RMOne to RMTwo and RMThree
-* Reset replica datas after reboost ?
-* Replace replica after three consecutive incorrect result
-* Inform RMs after FE time out
 
