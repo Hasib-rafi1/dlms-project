@@ -43,6 +43,6 @@ Third assignment : https://github.com/Hasib-rafi1/dlms-web
 Login as Concordia Manager Ex(CONM1111) and execute the List of items by pressing 3 for 4 times (3 times consequtive and in the 4 th time it will give you the correct result). it Will give you the wrong result for 3 times.
 
 ### For Crash Senario
-Simulate a process crash by killing that process while the application is running. RM will reboost that replica from next client request.
+Simulate a process crash by killing that process while the application is running. RM will reboost that replica from next client request. Or login as a Concordia Manager CONM0000 and execute the list of item.
 
 
