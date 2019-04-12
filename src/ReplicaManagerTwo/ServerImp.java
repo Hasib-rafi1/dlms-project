@@ -419,7 +419,11 @@ public class ServerImp {
 				}
 			}
 			if(flag == 0) {
+				System.out.println("campus "+ Campus);
+				System.out.println("itemID "+ itemID);
 				if (items.get(itemID).num > 0) {
+					System.out.println("campus "+ Campus);
+					System.out.println("itemID "+ itemID);
 					if (!borrowedItems.containsKey(itemID)) {
 						ArrayList<String> newBorrowedUser = new ArrayList<>();
 						newBorrowedUser.add(userID);
@@ -806,7 +810,21 @@ public class ServerImp {
 							returnResult = UDPRequest.UDPreturnItem(command, serverPort);
 						}
 						if(returnResult) {
-							result=borrowLocal(studentID,newItemID);
+							command = "borrowItem(" + studentID + "," + newItemID + "," + 0 + ")";
+							if(newCampus.equals(Campus)) {
+								result=borrowLocal(studentID,newItemID);
+							}else if(newCampus.equals("CON")){
+								serverPort = 2234;
+								result = UDPRequest.UDPreturnItem(command, serverPort);
+							}
+							else if(newCampus.equals("MCG")){
+								serverPort = 2235;
+								result = UDPRequest.UDPreturnItem(command, serverPort);
+							}
+							else if(newCampus.equals("MON")){
+								serverPort = 2236;
+								result = UDPRequest.UDPreturnItem(command, serverPort);
+							}
 						}
 				}
 			} catch (Exception e) {
