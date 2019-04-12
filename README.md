@@ -1,5 +1,13 @@
 # DLMS-project
 
+This is the project implimentation of the DSD. and all the infomrmation of project description is given in the pdf. This project is a 3 members project.
+
+First assignment : https://github.com/Hasib-rafi1/dlms
+
+Second assignment : https://github.com/Hasib-rafi1/dlms-corba
+
+Third assignment : https://github.com/Hasib-rafi1/dlms-web
+
 ### Run Codes In This Order
 
 `ReplicaManagerOne/ConcordiaServer.java`
